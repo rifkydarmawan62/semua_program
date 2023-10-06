@@ -8,12 +8,16 @@ Muhammad Rifky Darmawan
 ## [Cryptography](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/kriptografi)
 | Name | Availability | Program Category |
 | --- | --- | --- |
-| - [Encode and Decode Unicode Standard Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/unicode_standar.py) | Available | Module |
-## Hacking Method
-|Name | Availability | Program Category |
+| [Encode and Decode Unicode Standard Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/unicode_standar.py) | Available | Module |
+## [Hacking Method](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/metode_peretasan)
+| Name | Availability | Program Category |
 | --- | --- | --- |
-| ~~[Brute Force]~~ | Unavailable | Module |
-| ~~[Dictionary Attack]~~ | Unavailable | Module |
+| [Brute Force Attack](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/metode_peretasan) | Available | Module |
+| [Dictionary Attack](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/metode_peretasan) | Available | Module |
+## Internet Network Configuration
+| Name | Availability| Program Category |
+| --- | --- | --- |
+| [Port] | Available | Module |
 ## Other
 | Name | Availability | Program Category |
 | --- | --- | --- |
