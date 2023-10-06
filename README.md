@@ -1,7 +1,9 @@
-# Python
+## Python
+Python Programming Language
 Bahasa pemrograman Python
 
-Author : Muhammad Rifky Darmawan
+## Author
+Muhammad Rifky Darmawan
 
 ## Disclaimer and Information :
 Program created only for KNOWLEDGE and EDUCATION not for HACKING or any ILLEGAL ACTIVITIES!
