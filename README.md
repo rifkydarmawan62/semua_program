@@ -1,4 +1,3 @@
-# Python
 Python Programming Language
 
 # Author
