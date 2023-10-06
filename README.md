@@ -9,6 +9,7 @@ Muhammad Rifky Darmawan
 - [Cryptography](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/kriptografi)
 - [Encode and Decode Unicode Standard Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/unicode_standar.py)
 - [Brute Force]
+- [Dictionary Attack]
 
 ## Disclaimer and Information :
 Program created only for KNOWLEDGE and EDUCATION not for HACKING or any ILLEGAL ACTIVITIES!
