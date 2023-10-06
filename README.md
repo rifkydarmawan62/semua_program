@@ -12,8 +12,8 @@ Muhammad Rifky Darmawan
 ## [Hacking Method](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/metode_peretasan)
 | Name | Availability | Program Category |
 | --- | --- | --- |
-| [Brute Force Attack](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/metode_peretasan) | Available | Module |
-| [Dictionary Attack](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/metode_peretasan) | Available | Module |
+| [Brute Force Attack](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Module |
+| [Dictionary Attack](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Module |
 ## Internet Network Configuration
 | Name | Availability| Program Category |
 | --- | --- | --- |
