@@ -1,4 +1,8 @@
-"Memperbolehkan anda untuk memilih berbagai metode peretasan yang tersedia"
+"""
+Memperbolehkan anda untuk memilih berbagai metode peretasan yang tersedia.
+Namun perlu di ingat ini adalah modul yang tidak dapat digunakan untuk peretasan secara langsung.
+Anda harus membuat kode pemrograman untuk peretasan anda sendiri dan pastikan anda tidak menggunakan modul ini untuk tujuan ilegal!
+"""
 import typing
 from tkinter import filedialog
 
