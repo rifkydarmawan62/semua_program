@@ -8,7 +8,7 @@ Muhammad Rifky Darmawan
 ## [Cryptography](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/kriptografi)
 | Name | Availability | Program Category |
 | --- | --- | --- |
-| [Encode and Decode Unicode Standard Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/unicode_standar.py) | Available | Module |
+| [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/unicode_standar.py) | Available | Module |
 ## [Hacking Method](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/metode_peretasan)
 | Name | Availability | Program Category |
 | --- | --- | --- |
