@@ -21,7 +21,7 @@ Muhammad Rifky Darmawan
 ## Time Configuration
 | Name | Availability | Program Category |
 | --- | --- | --- |
-| [waktu_sekarang]() | Available | Module |
+| [waktu_sekarang](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/waktu_sekarang/__init__.py) | Available | Module |
 ## Other
 | Name | Availability | Program Category |
 | --- | --- | --- |
