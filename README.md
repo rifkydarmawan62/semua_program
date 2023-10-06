@@ -6,17 +6,17 @@ Muhammad Rifky Darmawan
 
 # Tool
 ## [Cryptography](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/kriptografi)
-| Name | Availability |
-| --- | --- |
-| - [Encode and Decode Unicode Standard Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/unicode_standar.py) | Available |
+| Name | Availability | Program Category |
+| --- | --- | --- |
+| - [Encode and Decode Unicode Standard Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/unicode_standar.py) | Available | Module |
 ## Hacking Method
-|Name | Availability |
-| --- | --- |
-| - ~~[Brute Force]~~ | Unavailable |
-| - ~~[Dictionary Attack]~~ | Unavailable |
+|Name | Availability | Program Category |
+| --- | --- | --- |
+| ~~[Brute Force]~~ | Unavailable | Module |
+| ~~[Dictionary Attack]~~ | Unavailable | Module |
 ## Other
-| Name | Availability |
-| --- | --- |
+| Name | Availability | Program Category |
+| --- | --- | --- |
 # Disclaimer and Information :
 | English | Indonesian |
 | --- | --- |
