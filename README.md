@@ -5,6 +5,10 @@ Bahasa pemrograman Python
 ## Author
 Muhammad Rifky Darmawan
 
+## Tool
+- [Encode and Decode Unicode Standard Character]
+- [Brute Force]
+
 ## Disclaimer and Information :
 Program created only for KNOWLEDGE and EDUCATION not for HACKING or any ILLEGAL ACTIVITIES!
 I am not responsible for the actions of users who use this program for illegal purposes.
