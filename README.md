@@ -18,6 +18,10 @@ Muhammad Rifky Darmawan
 | Name | Availability| Program Category |
 | --- | --- | --- |
 | [Port](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/port/__init__.py) | Available | Module |
+## Time Configuration
+| Name | Availability | Program Category |
+| --- | --- | --- |
+| [waktu_sekarang]() | Available | Module |
 ## Other
 | Name | Availability | Program Category |
 | --- | --- | --- |
