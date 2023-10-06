@@ -8,8 +8,10 @@ Muhammad Rifky Darmawan
 # Tool
 ## [Cryptography](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/kriptografi)
 - [Encode and Decode Unicode Standard Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/unicode_standar.py)
+## Hacking Method
 - [Brute Force]
 - [Dictionary Attack]
+## Other
 
 # Disclaimer and Information :
 Program created only for KNOWLEDGE and EDUCATION not for HACKING or any ILLEGAL ACTIVITIES!
