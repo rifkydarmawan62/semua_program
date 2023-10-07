@@ -22,6 +22,12 @@ Muhammad Rifky Darmawan
 | Name | Availability | Program Category |
 | --- | --- | --- |
 | [waktu_sekarang](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/waktu_sekarang/__init__.py) | Available | Module |
+## Mathematical Functions
+| Name | Availability | Program Category |
+| --- | --- | --- |
+| [hasil_faktorial](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/matematika/__init__.py) | Available | Module |
+| [deret_bilangan_prima](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/matematika/__init__.py) | Available | Module |
+| [cek_bilangan_prima](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/matematika/__init__.py) | Available | Module |
 ## Other
 | Name | Availability | Program Category |
 | --- | --- | --- |
