@@ -1,7 +1,7 @@
 "Menyediakan fungsi matematika yang tersedia"
 
 __version__ = "1.2.0"
-__all__ = ["faktorial", "deret_bilangan_prima", "cek_bilangan_prima"]
+__all__ = ["hasil_faktorial", "deret_bilangan_prima", "cek_bilangan_prima"]
 
 class exception_tipe_data_tidak_valid(Exception):
     def __init__(self, pesan_error : None | str):
