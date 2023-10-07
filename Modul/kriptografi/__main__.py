@@ -1,5 +1,5 @@
 import tkinter.filedialog, csv
-from . import unicode_standar
+import unicode_standar
 
 __version__ = "1.3.0"
 
