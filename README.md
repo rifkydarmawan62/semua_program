@@ -1,3 +1,5 @@
+[Bahasa Indonesia]()
+
 # Python Programming Language
 
 # Author
@@ -33,5 +35,5 @@ rifkydarmawan62
 | Name | Availability | Program Category |
 | --- | --- | --- |
 # Disclaimer and Information :
-Program created only for KNOWLEDGE and EDUCATION not for HACKING or any ILLEGAL ACTIVITIES!
-I am not responsible for the actions of users who use this program for illegal purposes.
+Program created only for KNOWLEDGE and EDUCATION not for HACKING or any ILLEGAL ACTIVITIES!  
+I am not responsible for the actions of users who use this program for illegal purposes.  
