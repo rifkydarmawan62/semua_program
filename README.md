@@ -6,7 +6,7 @@
 > rifkydarmawan62
 
 # Tool
-> ## [Cryptoghrapy](https://github.com/rifkydarmawan62/Python/tree/Publik/Module/kriptografi)
+> ## [Cryptograhpy](https://github.com/rifkydarmawan62/Python/tree/Publik/Module/kriptografi)
 >> | Name | Availability | Program Category |
 >> | --- | --- | --- |
 >> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Module/kriptografi/unicode_standar.py) | Available | Module |
