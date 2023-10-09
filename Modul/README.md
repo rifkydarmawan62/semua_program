@@ -1,7 +1,7 @@
 > # Petunjuk
 >> ## Bagaimana Cara Mengimport dan Menggunakan Modul ini Untuk Peretasan?
 >> Anda dapat menulis kode pemrograman berbahaya anda dengan contoh di bawah ini!
->> ~~~Python
+~~~>> Python
 from metode_peretasan import *
 
 for serangan_brute_force in brute_force(karakter_kata_sandi = "abcdefghijklmnopqrstuvwxyz", panjang_kata_sandi = 2):
