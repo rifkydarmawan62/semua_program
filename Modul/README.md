@@ -12,5 +12,5 @@
 >>>
 >>> for serangan_kamus in kamus():
 >>>     "Tuliskan program berbahaya anda disini"
-~~~
+>>> ~~~
 >>> Modul ini dapat memberikan efisiensi lebih untuk peretasan karena anda tidak perlu repot-repot membuat algoritma program untuk peretasan
