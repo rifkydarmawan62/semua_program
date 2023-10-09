@@ -1,4 +1,4 @@
-[English Languange](https://github.com/rifkydarmawan62/Python/blob/Publik/README.md)
+[Bahasa Indonesia](https://github.com/rifkydarmawan62/Python/tree/Publik/Indonesian)
 
 # Python Programming Language
 
