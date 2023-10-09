@@ -37,3 +37,4 @@
 # Disclaimer dan Informasi:
 > Program yang dibuat bukan untuk **tujuan ILEGAL apapun**!  
 > Saya tidak bertanggung jawab terhadap tindakan pengguna yang menggunakan program ini untuk tujuan ilegal.  
+# [Bantuan](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/README.md)
