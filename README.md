@@ -6,11 +6,11 @@
 > rifkydarmawan62
 
 # Tool
-> ## [Cryptograhpy](https://github.com/rifkydarmawan62/Python/tree/Publik/Module/kriptografi)
+> ## [Cryptography](https://github.com/rifkydarmawan62/Python/tree/Publik/Module/kriptografi)
 >> | Name | Availability | Program Category |
 >> | --- | --- | --- |
 >> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Module/kriptografi/unicode_standar.py) | Available | Module |
->> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Module/kriptografi/__main__.py) | Available | Program Eksekusi |
+>> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Module/kriptografi/__main__.py) | Available | Execution Program |
 > ## [Hacking Method](https://github.com/rifkydarmawan62/Python/tree/Publik/Module/metode_peretasan)
 >> | Name | Availability | Program Category |
 >> | --- | --- | --- |
