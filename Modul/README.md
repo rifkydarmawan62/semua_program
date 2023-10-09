@@ -1,5 +1,7 @@
  # Petunjuk
 > ## FAQ
+>> ### Dimana Saya Dapat Mengunduh dan Menggunakan Bahasa Pemrograman Python?
+>>> Anda dapat mengunduh dan menggunakan bahasa pemrograman Python di https://www.python.org/downloads/
 >> ### Bagaimana Cara Mengimport dan Menggunakan Modul ini Untuk Peretasan?
 >>> Anda dapat menulis kode pemrograman berbahaya anda dengan contoh di bawah ini!
 >>> ~~~Python
