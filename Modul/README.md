@@ -13,4 +13,6 @@
 >>> for serangan_kamus in kamus():
 >>>     "Tuliskan program berbahaya anda disini"
 >>> ~~~
->>> Modul ini dapat memberikan efisiensi lebih untuk peretasan karena anda tidak perlu repot-repot membuat algoritma program untuk peretasan
+>>> Modul ini dapat memberikan efisiensi lebih untuk peretasan karena anda tidak perlu repot-repot lagi membuat algoritma program untuk peretasan
+> # Media Sosial
+> Instagram : [@rifkydarmawan62](https://www.instagram.com/rifkydarmawan62/)
