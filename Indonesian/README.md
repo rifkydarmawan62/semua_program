@@ -10,7 +10,7 @@
 >> | Nama | Ketersediaan | Kategori Program |
 >> | --- | --- | --- |
 >> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/unicode_standar.py) | Tersedia | Modul |
->> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/__main__.py) | Tersedia | Program Eksekusi |
+>> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/__main__.py) | Tersedia | Program Terminal/Konsol |
 > ## [Metode Peretasan](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/metode_peretasan)
 >> | Nama | Ketersediaan | Kategori Program |
 >> | --- | --- | --- |
