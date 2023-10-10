@@ -34,6 +34,7 @@
 > ## Lainnya
 >> | Nama | Ketersediaan | Kategori Program |
 >> | --- | --- | --- |
+>> | [manager file txt]() | Tersedia | Aplikasi Desktop |
 # Disclaimer dan Informasi:
 > Program yang dibuat bukan untuk **tujuan ILEGAL apapun**!  
 > Saya tidak bertanggung jawab terhadap tindakan pengguna yang menggunakan program ini untuk tujuan ilegal.  
