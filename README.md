@@ -10,7 +10,7 @@
 >> | Name | Availability | Program Category |
 >> | --- | --- | --- |
 >> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/unicode_standar.py) | Available | Module |
->> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/__main__.py) | Available | Execution Program |
+>> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/__main__.py) | Available | Terminal/Console Program |
 > ## [Hacking Method](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/metode_peretasan)
 >> | Name | Availability | Program Category |
 >> | --- | --- | --- |
@@ -34,6 +34,7 @@
 > ## Other
 >> | Name | Availability | Program Category |
 >> | --- | --- | --- |
+>> | [txt file manager](https://github.com/rifkydarmawan62/Python/tree/Publik/Manager%20File%20txt) | Available | Desktop Application|
 # Disclaimer dan Information:
 > Program created **not for ILEGAL purposes**!  
 > I am not responsible for the actions of users who use this program for illegal purposes. 
