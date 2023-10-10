@@ -11,7 +11,7 @@
 >> | --- | --- | --- |
 >> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/unicode_standar.py) | Available | Module |
 >> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/kriptografi/__main__.py) | Available | Execution Program |
-> ## [Hacking Method](https://github.com/rifkydarmawan62/Python/tree/Publik/Module/metode_peretasan)
+> ## [Hacking Method](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/metode_peretasan)
 >> | Name | Availability | Program Category |
 >> | --- | --- | --- |
 >> | [Brute Force Attack](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Module |
