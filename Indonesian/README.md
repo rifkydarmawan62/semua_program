@@ -17,7 +17,7 @@
 >> | [Serangan Brute Force](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/metode_peretasan/__init__.py) | Tersedia | Modul |
 >> | [Pin Brute Force](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/metode_peretasan/__init__.py) | Tersedia | Modul |
 >> | [Serangan Kamus](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/metode_peretasan/__init__.py) | Tersedia | Modul |
-> ## Konfigurasi Jaringan Internet
+> ## [Konfigurasi Jaringan Internet](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/jaringan_internet)
 >> | Nama | Ketersediaan| Kategori Program |
 >> | --- | --- | --- |
 >> | [port](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/port/__init__.py) | Tersedia | Modul |
