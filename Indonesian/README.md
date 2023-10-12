@@ -20,7 +20,8 @@
 > ## [Konfigurasi Jaringan Internet](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/jaringan_internet)
 >> | Nama | Ketersediaan| Kategori Program |
 >> | --- | --- | --- |
->> | [port](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/port/__init__.py) | Tersedia | Modul |
+>> | [port]() | Tersedia | Modul |
+>> | [netmask](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/jaringan_internet/netmask) | Tersedia | Modul |
 > ## Konfigurasi Waktu
 >> | Nama | Ketersediaan | Kategori Program |
 >> | --- | --- | --- |
