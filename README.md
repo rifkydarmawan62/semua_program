@@ -17,7 +17,7 @@
 >> | [Brute Force Attack](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Module |
 >> | [Brute Force Pin](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Module |
 >> | [Dictionary Attack](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Module |
-> ## [Internet Network Configuration](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/jaringan_internet))
+> ## [Internet Network Configuration](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/jaringan_internet)
 >> | Name | Availability| Program Category |
 >> | --- | --- | --- |
 >> | [port](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/jaringan_internet/port) | Available | Module |
