@@ -24,7 +24,9 @@
 >>> Untuk alasan privasi dan keamanan hanya Instagram saja yang digunakan untuk media sosial
 >> ### Apakah Anda Memiliki Akun Duplikat, Akun Cadangan, atau, Akun Lain?
 >>> **Tidak Ada Akun Duplikat Apapun!**
+>>> 
 >>> Akun duplikat seringkali digunakan untuk **penipuan dan penyebaran hoaks serta informasi palsu**
+>>> 
 >>> Hanya akun dengan username **rifkydarmawan62 adalah akun asli! Selain dari akun itu, maka akun tersebut adalah akun palsu! Termasuk di Instagram**
 # Media Sosial
 > - Instagram : [@rifkydarmawan62](https://www.instagram.com/rifkydarmawan62/)
