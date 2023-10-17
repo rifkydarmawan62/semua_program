@@ -1,7 +1,5 @@
 [Bahasa Indonesia](https://github.com/rifkydarmawan62/Python/tree/Publik/Indonesian)
 
-# Python Programming Language
-
 # Author
 > rifkydarmawan62
 
