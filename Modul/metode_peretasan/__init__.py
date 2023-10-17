@@ -62,4 +62,4 @@ def kamus(string_judul = False, string_kapital = False, string_huruf_besar = Fal
                 if string_huruf_besar: yield data_per_baris.upper()
                 if string_huruf_kecil: yield data_per_baris.lower()
     else:
-        return False
+        yield False
