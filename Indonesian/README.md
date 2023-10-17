@@ -4,12 +4,12 @@
 > rifkydarmawan62
 
 # Tool
-> ## [Kriptografi](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/kriptografi)
+> ## [Kriptografi](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/kriptografi)
 >> | Nama | Ketersediaan | Kategori Program |
 >> | --- | --- | --- |
 >> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/unicode_standar.py) | Tersedia | Modul Python |
 >> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Tersedia | Program Python Terminal/Konsol |
-> ## [Metode Peretasan](https://github.com/rifkydarmawan62/Python/tree/Publik/Modul/metode_peretasan)
+> ## [Metode Peretasan](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/metode_peretasan)
 >> | Nama | Ketersediaan | Kategori Program |
 >> | --- | --- | --- |
 >> | [Serangan Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Tersedia | Modul Python |
@@ -34,9 +34,10 @@
 >> | Nama | Ketersediaan | Kategori Program |
 >> | --- | --- | --- |
 >> | [manager file txt](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Manager%20File%20txt) | Tersedia | Aplikasi Desktop |
+>> | [Pointer Array Dua Dimensi](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C++/Pointer%20Array.cpp) | Available | Terminal/Console C++ Program |
 # Disclaimer dan Informasi:
 > Program yang dibuat bukan untuk **tujuan ILEGAL apapun**!  
 > **Saya tidak bertanggung jawab** terhadap **tindakan pengguna yang menggunakan program ini untuk tujuan ilegal!**  
-# [Bantuan](https://github.com/rifkydarmawan62/Python/blob/Publik/Modul/README.md)
+# [Bantuan](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/README.md)
 # Media Sosial
 > - Instagram : [@rifkydarmawan62](https://www.instagram.com/rifkydarmawan62/)
