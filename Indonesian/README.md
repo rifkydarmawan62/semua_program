@@ -34,7 +34,8 @@
 >> | Nama | Ketersediaan | Kategori Program |
 >> | --- | --- | --- |
 >> | [manager file txt](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Manager%20File%20txt) | Tersedia | Program Python Aplikasi Desktop |
->> | [Pointer Array Dua Dimensi](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C++/Pointer%20Array.cpp) | Tersedia | Program C++ Terminal/Konsol |
+>> | [Pointer Array Dua Dimensi](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C++/Dasar-Dasar/Pointer%20Array.cpp) | Tersedia | Program C++ Terminal/Konsol |
+>> | [static dan non static](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/static%20dan%20non%20static.cpp) | Tersedia | Program C++ Terminal/Konsol |
 # Disclaimer dan Informasi:
 > Program yang dibuat bukan untuk **tujuan ILEGAL apapun**!  
 > **Saya tidak bertanggung jawab** terhadap **tindakan pengguna yang menggunakan program ini untuk tujuan ilegal!**  
