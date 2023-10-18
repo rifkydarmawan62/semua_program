@@ -34,7 +34,7 @@
 >> | Name | Availability | Program Category |
 >> | --- | --- | --- |
 >> | [txt file manager](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Manager%20File%20txt) | Available | Desktop Application Python Program |
->> | [Array Pointer](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C++/Pointer%20Array.cpp) | Available | Terminal/Console C++ Program |
+>> | [Array Pointer](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/Pointer%20Array.cpp) | Available | Terminal/Console C++ Program |
 # Disclaimer dan Information:
 > Program created **not for ILEGAL purposes**!  
 > I am not responsible for the actions of users who use this program for illegal purposes. 
