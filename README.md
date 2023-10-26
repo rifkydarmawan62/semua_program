@@ -1,9 +1,9 @@
 [Bahasa Indonesia](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Indonesian)
 
-# Author
+## Author
 > rifkydarmawan62
 
-# Tool
+## Tool
 > ## [Cryptography](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/kriptografi)
 >> | Name | Availability | Program Category |
 >> | --- | --- | --- |
@@ -15,7 +15,7 @@
 >> | [Standard Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
 >> | [Dictionary Attack](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
 >> | [Hexadecimal Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
->> | [Brute Force Pin](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
+>> | [Pin Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
 >> | [Octal Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
 >> | [Binary Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
 > ## [Internet Network Configuration](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/jaringan_internet)
@@ -39,9 +39,9 @@
 >> | [txt file manager](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Manager%20File%20txt) | Available | Desktop Application Python Program |
 >> | [Array Pointer](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/Pointer%20Array.cpp) | Available | Terminal/Console C++ Program |
 >> | [static dan non static](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/static%20dan%20non%20static.cpp) | Available | Terminal/Console C++ Program |
-# Disclaimer dan Information:
+## Disclaimer dan Information:
 > Program created **not for ILEGAL purposes**!  
 > I am not responsible for the actions of users who use this program for illegal purposes. 
-# [Help](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/README.md)
-# Social Media
+## [Help](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/README.md)
+## Social Media
 > - Instagram : [@rifkydarmawan62](https://www.instagram.com/rifkydarmawan62/)
