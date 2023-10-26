@@ -10,11 +10,14 @@
 >> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/unicode_standar.py) | Available | Python Module |
 >> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Available | Terminal/Console Python Program |
 > ## [Hacking Method](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/metode_peretasan)
->> | Name | Availability | Program Category |
->> | --- | --- | --- |
->> | [Brute Force Attack](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module |
->> | [Brute Force Pin](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module |
->> | [Dictionary Attack](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module |
+>> | Name | Availability | Program Category | Last Update Date |
+>> | --- | --- | --- | --- |
+>> | [Standard Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
+>> | [Dictionary Attack](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
+>> | [Hexadecimal Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
+>> | [Brute Force Pin](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
+>> | [Octal Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
+>> | [Binary Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
 > ## [Internet Network Configuration](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/jaringan_internet)
 >> | Name | Availability| Program Category |
 >> | --- | --- | --- |
