@@ -1,14 +1,14 @@
 [English Languange](https://github.com/rifkydarmawan62/program_publik/blob/Publik/README.md)
 
-## Author
+# Author
 > rifkydarmawan62
 
-## Tool
+# Alat
 > ## [Kriptografi](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/kriptografi)
->> | Nama | Ketersediaan | Kategori Program |
->> | --- | --- | --- |
->> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/unicode_standar.py) | Tersedia | Modul Python |
->> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Tersedia | Program Python Terminal/Konsol |
+>> | Nama | Ketersediaan | Kategori Program | Tanggal Pembaruan Terakhir |
+>> | --- | --- | --- | --- |
+>> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/unicode_standar.py) | Tersedia | Modul Python | 2 November 2023 |
+>> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Tersedia | Program Python Terminal/Konsol | Tidak Ada |
 > ## [Metode Peretasan](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/metode_peretasan)
 >> | Nama | Ketersediaan | Kategori Program | Tanggal Pembaruan Terakhir |
 >> | --- | --- | --- | --- |
@@ -39,9 +39,9 @@
 >> | [manager file txt](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Manager%20File%20txt) | Tersedia | Program Python Aplikasi Desktop |
 >> | [Pointer Array Dua Dimensi](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C++/Dasar-Dasar/Pointer%20Array.cpp) | Tersedia | Program C++ Terminal/Konsol |
 >> | [static dan non static](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/static%20dan%20non%20static.cpp) | Tersedia | Program C++ Terminal/Konsol |
-## Disclaimer dan Informasi:
+# Disclaimer dan Informasi:
 > Program yang dibuat bukan untuk **tujuan ILEGAL apapun**!  
 > **Saya tidak bertanggung jawab** terhadap **tindakan pengguna yang menggunakan program ini untuk tujuan ilegal!**  
-## [Bantuan](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/README.md)
-## Media Sosial
+# [Bantuan](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/README.md)
+# Media Sosial
 > - Instagram : [@rifkydarmawan62](https://www.instagram.com/rifkydarmawan62/)
