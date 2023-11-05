@@ -5,40 +5,40 @@
 
 # Tool
 > ## [Cryptography](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/kriptografi)
->> | Name | Availability | Program Category | Last Update Date |
->> | --- | --- | --- | --- |
->> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/unicode_standar.py) | Available | Python Module | 2 November 2023 |
->> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Available | Terminal/Console Python Program | None |
+>> | Name | Program Category | Last Update Date |
+>> | --- | --- | --- |
+>> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/unicode_standar.py) | Python Module | 2 November 2023 |
+>> | [Encoding and Decoding Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Terminal/Console Python Program | None |
 > ## [Hacking Method](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/metode_peretasan)
->> | Name | Availability | Program Category | Last Update Date |
->> | --- | --- | --- | --- |
->> | [Standard Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
->> | [Dictionary Attack](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
->> | [Hexadecimal Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
->> | [Pin Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
->> | [Octal Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
->> | [Binary Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Available | Python Module | 26 October 2023 |
+>> | Name | Program Category | Last Update Date |
+>> | --- | --- | --- |
+>> | [Standard Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Python Module | 26 October 2023 |
+>> | [Dictionary Attack](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Python Module | 26 October 2023 |
+>> | [Hexadecimal Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Python Module | 26 October 2023 |
+>> | [Pin Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Python Module | 26 October 2023 |
+>> | [Octal Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Python Module | 26 October 2023 |
+>> | [Binary Brute Force](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Python Module | 26 October 2023 |
 > ## [Internet Network Configuration](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/jaringan_internet)
->> | Name | Availability| Program Category |
->> | --- | --- | --- |
->> | [port](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/jaringan_internet/port) | Available | Python Module |
->> | [netmask](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/jaringan_internet/netmask) | Available | Python Module |
+>> | Name | Program Category |
+>> | --- | --- |
+>> | [port](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/jaringan_internet/port) | Python Module |
+>> | [netmask](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/jaringan_internet/netmask) | Python Module |
 > ## Time Configuration
->> | Name | Availability | Program Category |
->> | --- | --- | --- |
->> | [waktu_sekarang](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/waktu_sekarang/__init__.py) | Available | Python Module |
+>> | Name | Program Category |
+>> | --- | --- |
+>> | [waktu_sekarang](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/waktu_sekarang/__init__.py) | Python Module |
 > ## Mathematical Function
->> | Name | Availability | Program Category |
->> | --- | --- | --- |
->> | [hasil_faktorial](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/matematika/__init__.py) | Available | Python Module |
->> | [deret_bilangan_prima](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/matematika/__init__.py) | Available | Python Module |
->> | [cek_bilangan_prima](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/matematika/__init__.py) | Available | Python Module |
+>> | Name | Program Category |
+>> | --- | --- |
+>> | [hasil_faktorial](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/matematika/__init__.py) | Python Module |
+>> | [deret_bilangan_prima](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/matematika/__init__.py) | Python Module |
+>> | [cek_bilangan_prima](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/matematika/__init__.py) | Python Module |
 > ## Other
->> | Name | Availability | Program Category |
+>> | Name | Program Category | Last Update Date |
 >> | --- | --- | --- |
->> | [txt file manager](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Manager%20File%20txt) | Available | Desktop Application Python Program |
->> | [Array Pointer](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/Pointer%20Array.cpp) | Available | Terminal/Console C++ Program |
->> | [static dan non static](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/static%20dan%20non%20static.cpp) | Available | Terminal/Console C++ Program |
+>> | [txt file manager](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Manager%20File%20txt) | Desktop Application Python Program | 5 November 2023 |
+>> | [Array Pointer](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/Pointer%20Array.cpp) | Terminal/Console C++ Program | None |
+>> | [static dan non static](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/static%20dan%20non%20static.cpp) | Terminal/Console C++ Program | None |
 # Disclaimer dan Information:
 > Program created **not for ILEGAL purposes**!  
 > I am not responsible for the actions of users who use this program for illegal purposes. 
