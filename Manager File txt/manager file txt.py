@@ -1,8 +1,8 @@
 import tkinter, tkinter.filedialog, os
 from tkinter import messagebox
 
-
 JENDELA = tkinter.Tk()
+"Jendela Utama"
 JENDELA.title("Manager File txt")
 #JENDELA.geometry("430x110+600+50")
 JENDELA.configure(background="#dddddd")
@@ -38,6 +38,7 @@ def muat_daftar_data():
     for bagian_daftar_data in baca_file():
         DAFTAR_DATA.insert(tkinter.END, bagian_daftar_data)
     DAFTAR_DATA.select_clear(0, tkinter.END)
+    #BILAH_GESER_HORIZONTAL.focus_set()
 
 def tombol_menu_file_baru():
     DIREKTORI_YANG_DIPILIH = tkinter.filedialog.askdirectory()
@@ -236,7 +237,7 @@ def tombol_menu_reset():
 def tombol_menu_bantuan_petunjuk():
     messagebox.showinfo(title = "Petunjuk", message = "Memanajemen data untuk disimpan dan dikelola dalam format .txt\n\nOpsi\nCari : Mencari data yang ada dalam daftar data\nTambah : Menambahkan data dari input ke daftar data\nHapus : Menghapus daftar data\nHapus Semua Data : Menghapus seluruh daftar data menjadi kosong\nSalin : Menyalin daftar data yang dipilih ke clipboard\n\nReset : Mereset tampilan input data, output, dan daftar data yang dipilih\n\n*Segala perubahan yang dilakukan oleh pengguna akan langsung disimpan")
 def tombol_menu_bantuan_informasi_pengembang():
-    messagebox.showinfo(title = "Informasi Pengembang", message = "Dikembangkan oleh Muhammad Rifky Darmawan\nDiprogram dengan Python\n\nDibuat pada 8 Agustus 2023\n\nDiperbarui pada 10 Oktober 2023")
+    messagebox.showinfo(title = "Informasi Pengembang", message = "Dikembangkan oleh M Rifky Darmawan dengan Python\n\nDibuat : 8 Agustus 2023\nDiperbarui : 5 November 2023\n\nGitHub : rifkydarmawan62")
 
 variabel_daftar_data = tkinter.StringVar(JENDELA)
 
@@ -275,9 +276,9 @@ KOTAK_OUTPUT = tkinter.Label(JENDELA, text="", foreground="#000000", background=
 LABEL_DAFTAR_DATA = tkinter.Label(JENDELA, text = "Daftar Data", foreground = "#000000", background = "#dddddd")
 DAFTAR_DATA = tkinter.Listbox(JENDELA, activestyle = "dotbox", listvariable = variabel_daftar_data, height = 20, selectmode = "SINGLE", state = "disabled")
 BILAH_GESER_HORIZONTAL = tkinter.Scrollbar(JENDELA, orient = "horizontal", command = DAFTAR_DATA.xview)
-BILAH_GESER_HORIZONTAL = tkinter.Scrollbar(JENDELA, orient = "vertical", command = DAFTAR_DATA.yview)
+BILAH_GESER_VERTIKAL = tkinter.Scrollbar(JENDELA, orient = "vertical", command = DAFTAR_DATA.yview)
 
-DAFTAR_DATA.configure(xscrollcommand = BILAH_GESER_HORIZONTAL.set, yscrollcommand = BILAH_GESER_HORIZONTAL.set)
+DAFTAR_DATA.configure(xscrollcommand = BILAH_GESER_HORIZONTAL.set, yscrollcommand = BILAH_GESER_VERTIKAL.set)
 #daftar_data.bind("<<ListboxSelect>>")
 
 LABEL_INPUT_DATA.grid(column=0, row=0, sticky="ew")
@@ -292,6 +293,6 @@ KOTAK_OUTPUT.grid(column= 2, row = 2, sticky="ew")
 LABEL_DAFTAR_DATA.grid(column = 0, row = 3, columnspan = 3, sticky = "ew")
 DAFTAR_DATA.grid(column = 0, row = 4, columnspan = 3, sticky = "nsew")
 BILAH_GESER_HORIZONTAL.grid(column = 0, row = 5, columnspan = 3, sticky = "ew")
-BILAH_GESER_HORIZONTAL.grid(column = 3, row = 4, sticky = "ns")
+BILAH_GESER_VERTIKAL.grid(column = 3, row = 4, sticky = "ns")
 
 JENDELA.mainloop()
