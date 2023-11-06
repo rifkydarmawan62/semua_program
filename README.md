@@ -37,7 +37,7 @@
 >> | Name | Program Category | Last Update Date |
 >> | --- | --- | --- |
 >> | [txt file manager](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Manager%20File%20txt) | Desktop Application Python Program | 5 November 2023 |
->> | [Color Conversion](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Konversi%20Warna.py) | Desktop Application Python Program | 5 November 2023 (Added) |
+>> | [Color Conversion](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Konversi%20Warna) | Desktop Application Python Program | 6 November 2023 |
 >> | [Array Pointer](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/Pointer%20Array.cpp) | Terminal/Console C++ Program | None |
 >> | [static dan non static](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/static%20dan%20non%20static.cpp) | Terminal/Console C++ Program | None |
 # Disclaimer dan Information:
