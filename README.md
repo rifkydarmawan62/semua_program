@@ -8,7 +8,7 @@
 >> | Name | Program Category | Last Update Date |
 >> | --- | --- | --- |
 >> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/unicode_standar.py) | Python Module | 2 November 2023 |
->> | [~~Encoding and Decoding Standard Unicode Character~~] | Terminal/Console Python Program | 9 November 2023 (Deleted) |
+>> | ~~Encoding and Decoding Standard Unicode Character~~ | Terminal/Console Python Program | 9 November 2023 (Deleted) |
 >> | [Python Script CLI Program](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Terminal/Console Python Program | 9 November 2023 (Added)|
 > ## [Hacking Method](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/metode_peretasan)
 >> | Name | Program Category | Last Update Date |
