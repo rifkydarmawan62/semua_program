@@ -49,11 +49,34 @@
 >> 1. Download Bahasa Pemrograman Python
 >>    
 >>    Download dan unduh bahasa pemrograman Python dari situs resmi https://www.python.org/downloads/
->> 2. Salin Direktori File bin ke Variabel Lingkungan Sistem untuk Sistem Operasi Windows
->>
->>    1. Buka control panel atau panel kontrol
->>    2. Cari variabel dan pilih Edit variabel lingkungan sistem (membutuhkan akses administrator) seperti pada gambar dibawah ini
+>> 2. Buka control panel atau panel kontrol
+>> 3. Cari variabel dan pilih Edit variabel lingkungan sistem (membutuhkan akses administrator)
 >>   
->>       
+>>    ![aset_gambar_1](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Aset/Gambar/Memulai%20Dengan%20Python/1.png)
+>> 4. Pilih environment variables
+>>
+>>    ![aset_gambar_2](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Aset/Gambar/Memulai%20Dengan%20Python/2.png)
+>> 5. Pilih path system variable (untuk seluruh pengguna) atau path user variable (untuk 1 pengguna) lalu tekan Edit > New lalu salin direktori folder Python ke edit environment variable tekan ok untuk semua jendela yang sedang dibuka
+>>
+>>    ![aset_gambar_3](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Aset/Gambar/Memulai%20Dengan%20Python/3.png)
+>> 6. Download IDE (Integrated Development Environment)
+>>    
+>>    Download Visual Studio Code sebagai IDE utama dari situs resmi https://code.visualstudio.com/download lalu buat file Python dengan format .py dan tulis program
+>>    ~~~Python
+>>    print("Hello World")
+>>    ~~~
+>>    Sebagai program pertama Python
+>> 7. Pelajari dan kuasai syntax dasar bahasa bemrograman Python
+>> 8. Eksplorasi pustaka standar Python
+>>
+>>    Anda dapat menemukan pustaka standar Python pada situs dokumentasi pemrograman Python di https://docs.python.org/3/
+>> 9. Eksplorasi pustaka Python pihak ketiga
+>>
+>>    Terdapat pustaka Python pihak ketiga seperti NumPy, TensorFlow, Matplotlib, dan lain-lain di situs https://pypi.org/ dan dapat diunduh dan diinstal dengan menginput baris perintah
+>>    ~~~PowerShell
+>>    pip install package_name
+>>    ~~~
+>>    pada PowerShell
+>> 10. Teruslah belajar
 # Media Sosial
 > - Instagram : [@rifkydarmawan62](https://www.instagram.com/rifkydarmawan62/)
