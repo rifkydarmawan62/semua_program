@@ -32,7 +32,7 @@ def encoding_oktal(string : str, tuple_output = False) -> typing.Union[typing.Tu
     if tuple_output:
         return tuple([oct(ord(karakter_tunggal))[2:] for karakter_tunggal in string])
     else:
-        return [oct(ord(karakter_tunggal)) for karakter_tunggal in string]
+        return [oct(ord(karakter_tunggal))[2:] for karakter_tunggal in string]
 def encoding_biner(string : str, tuple_output = False) -> typing.Union[typing.Tuple[str, ...], typing.List[str]]:
     "Encode string menjadi bilangan biner"
     if tuple_output:
@@ -42,15 +42,22 @@ def encoding_biner(string : str, tuple_output = False) -> typing.Union[typing.Tu
 
 def decoding_heksadesimal(bilangan_heksadesimal : str | tuple[str, ...] | list[str]) -> str:
     "Decode bilangan heksadesimal menjadi string"
-    decode_string = ""
-    for karakter_tunggal_bilangan_heksadesimal in bilangan_heksadesimal:
-        decode_string = decode_string + chr(int("0x" + karakter_tunggal_bilangan_heksadesimal if "0x" != karakter_tunggal_bilangan_heksadesimal[:2] else karakter_tunggal_bilangan_heksadesimal, base = 0))
-    return decode_string
-def decoding_desimal(bilangan_desimal : int | typing.Iterable[int]) -> str:
+    decode_string : str = ""
+    if not isinstance(bilangan_heksadesimal, str):
+        for karakter_tunggal_bilangan_heksadesimal in bilangan_heksadesimal:
+            decode_string = decode_string + chr(int("0x" + karakter_tunggal_bilangan_heksadesimal if "0x" != karakter_tunggal_bilangan_heksadesimal[:2] else karakter_tunggal_bilangan_heksadesimal, base = 0))
+        return decode_string
+    else:
+        return chr(int("0x" + bilangan_heksadesimal if "0x" != bilangan_heksadesimal[:2] else bilangan_heksadesimal, base = 0))
+def decoding_desimal(bilangan_desimal : int | str | typing.Iterable[int] | typing.Iterable[str]) -> str:
     "Decode bilangan desimal menjadi string"
-    decode_string = ""
-    if not isinstance(bilangan_desimal, int):
+    decode_string : str = ""
+    if isinstance(bilangan_desimal, str):
+        return chr(int(bilangan_desimal))
+    elif not isinstance(bilangan_desimal, int):
         for karakter_tunggal_bilangan_desimal in bilangan_desimal:
+            if isinstance(karakter_tunggal_bilangan_desimal, str):
+                karakter_tunggal_bilangan_desimal = int(karakter_tunggal_bilangan_desimal)
             decode_string = decode_string + chr(karakter_tunggal_bilangan_desimal)
         return decode_string
     else:
