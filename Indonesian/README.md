@@ -46,9 +46,9 @@
 > **Saya tidak bertanggung jawab** terhadap **tindakan pengguna yang menggunakan program ini untuk tujuan ilegal!**  
 # Bantuan
 > ## Memulai Dengan Python
->> 1. Download Bahasa Pemrograman Python
+>> 1. Download dan Instal Bahasa Pemrograman Python
 >>    
->>    Download dan unduh bahasa pemrograman Python dari situs resmi https://www.python.org/downloads/
+>>    Download dan unduh bahasa pemrograman Python dari situs resmi https://www.python.org/downloads/ lalu lakukan instalasi
 >> 2. Buka control panel atau panel kontrol
 >> 3. Cari variabel dan pilih Edit variabel lingkungan sistem (membutuhkan akses administrator)
 >>   
@@ -78,5 +78,7 @@
 >>    ~~~
 >>    pada PowerShell
 >> 10. Teruslah belajar
+> ## Dokumentasi
+>> 
 # Media Sosial
 > - Instagram : [@rifkydarmawan62](https://www.instagram.com/rifkydarmawan62/)
