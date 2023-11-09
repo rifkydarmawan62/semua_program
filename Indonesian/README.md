@@ -4,12 +4,16 @@
 > rifkydarmawan62
 
 # Alat
+> ## Command Line Interface (CLI)
+>> Antarmuka Baris Perintah
+>> | Nama | Kategori Program | Tanggal Pembaruan Terakhir |
+>> | --- | --- | --- |
+>> | [Program Script Python CLI](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Program Python Terminal/Konsol | 9 November 2023 (Ditambahkan)|
 > ## [Kriptografi](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/kriptografi)
 >> | Nama | Kategori Program | Tanggal Pembaruan Terakhir |
 >> | --- | --- | --- |
 >> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/unicode_standar.py) | Modul Python | 9 November 2023 |
 >> | ~~Encoding and Decoding Standard Unicode Character~~ | Program Python Terminal/Konsol | 9 November 2023 (Dihapus) |
->> | [Program Script Python CLI](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Program Python Terminal/Konsol | 9 November 2023 (Ditambahkan)|
 > ## [Metode Peretasan](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/metode_peretasan)
 >> | Nama | Kategori Program | Tanggal Pembaruan Terakhir |
 >> | --- | --- | --- |
@@ -72,13 +76,100 @@
 >>    Anda dapat menemukan pustaka standar Python pada situs dokumentasi pemrograman Python di https://docs.python.org/3/
 >> 9. Eksplorasi pustaka Python pihak ketiga
 >>
->>    Terdapat pustaka Python pihak ketiga seperti NumPy, TensorFlow, Matplotlib, dan lain-lain di situs https://pypi.org/ dan dapat diunduh dan diinstal dengan menginput baris perintah
+>>    Terdapat pustaka Python pihak ketiga seperti NumPy, TensorFlow, Matplotlib, dan lain-lain di situs https://pypi.org/ dan dapat diunduh dan diinstal dengan menginput baris perintah di bawah ini pada PowerShell
 >>    ~~~PowerShell
 >>    pip install package_name
 >>    ~~~
->>    pada PowerShell
 >> 10. Teruslah belajar
 > ## Dokumentasi
->> 
+>> ### Metode Peretasan
+>>> - ~~~Python
+>>>   PEMBARUAN_TERAKHIR : Literal[str]
+>>>   ~~~
+>>>   
+>>>   Tanggal program terakhir kali diperbarui
+>>> - ~~~Python
+>>>   metode_peretasan.exception_karakter_kata_sandi_bukan_ascii
+>>>   ~~~
+>>>   
+>>>   Exception untuk karakter kata sandi non ascii
+>>> - ~~~Python
+>>>   def brute_force_standar(karakter_kata_sandi : str, panjang_kata_sandi : typing.Literal[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]) -> typing.Iterator[str]
+>>>   ~~~
+>>> 
+>>>   Metode serangan brute force standar.
+>>>   Penggunaan :
+>>>   ~~~Python
+>>>   from metode_peretasan import *
+>>>
+>>>   for serangan_brute_force in brute_force_standar("abcdefghijklmnopqrstuvwxyz", 2):
+>>>       "Program berbahaya untuk serangan brute force"
+>>>   ~~~
+>>> - ~~~Python
+>>>   def kamus(string_judul = False, string_kapital = False, string_huruf_besar = False, string_huruf_kecil = False, hanya_karakter_ascii = False) -> typing.Iterator[str] | typing.Iterator[typing.Literal[False]]
+>>>   ~~~
+>>>   
+>>>   Metode serangan dictionary.
+>>>   Program akan meminta file txt untuk serangan dictionary.
+>>>   False akan dihasilkan saat Iterator sedang berlangsung jika file tidak dibuka.
+>>>   Penggunaan :
+>>>   ~~~Python
+>>>   from metode_peretasan import *
+>>>   
+>>>   for serangan_dictionary in kamus():
+>>>       "Program berbahaya untuk serangan dictionary"
+>>>   ~~~
+>>> - ~~~Python
+>>>   def brute_force_heksadesimal(jumlah_digit_heksadesimal : int, output_bawan = True) -> typing.Iterator[str]:
+>>>       assert jumlah_digit_heksadesimal > 0, "Jumlah Digit Harus Lebih Dari Nol!"
+>>>   ~~~
+>>>   
+>>>   Melancarkan serangan brute force heksadesimal.
+>>>   Penggunaan :
+>>>   ~~~Python
+>>>   from metode_peretasan import *
+>>>   
+>>>   for heksadesimal in brute_force_heksadesimal(jumlah_digit_heksadesimal : 2, output_bawan = True):
+>>>       "Program berbahaya untuk brute force heksadesimal"
+>>>   ~~~
+>>> - ~~~Python
+>>>   def brute_force_pin(jumlah_digit : int, string_output = False) -> typing.Iterator[str] | typing.Iterator[int]:
+>>>       assert jumlah_digit > 0, "Jumlah Digit Harus Lebih Dari Nol!"
+>>>   ~~~
+>>>   
+>>>   Melancarkan serangan brute force pin.
+>>>   Penggunaan :
+>>>   ~~~Python
+>>>   from metode_peretasan import *
+>>>   
+>>>   for serangan_pin in brute_force_pin(4, True):
+>>>       "Program berbahaya untuk brute force pin"
+>>>   ~~~
+>>> - ~~~Python
+>>>   def brute_force_oktal(jumlah_digit_oktal : int, output_bawaan = True) -> typing.Iterator[str]:
+>>>       assert jumlah_digit_oktal > 0, "Jumlah Digit Oktal Harus Lebih Dari Nol!"
+>>>   ~~~
+>>>   
+>>>   Melancarkan serangan brute force oktal.
+>>>   Penggunaan :
+>>>   ~~~Python
+>>>   from metode_peretasan import *
+>>>   
+>>>   for serangan_oktal in brute_force_oktal(2):
+>>>       "Program berbahaya untuk brute force oktal"
+>>>   ~~~
+>>> - ~~~Python
+>>>   def brute_force_biner(jumlah_digit_biner : int, tipe_output : typing.Literal["integer", "string", "bawaan"]) -> typing.Iterator[str] | typing.Iterator[int]:
+>>>       assert jumlah_digit_biner > 0, "Jumlah Digit Biner Harus Lebih Dari Nol!"
+>>>   ~~~
+>>>   
+>>>   Melancarkan serangan brute force biner.
+>>>   Penggunaan :
+>>>   ~~~Python
+>>>   from metode_peretasan import *
+>>>   
+>>>   for serangan_biner in brute_force_biner(8, "string"):
+>>>       "Program berbahaya untuk brute force biner"
+>>>   ~~~
 # Media Sosial
 > - Instagram : [@rifkydarmawan62](https://www.instagram.com/rifkydarmawan62/)
