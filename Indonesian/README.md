@@ -44,6 +44,16 @@
 # Disclaimer dan Informasi:
 > Program yang dibuat bukan untuk **tujuan ILEGAL apapun**!  
 > **Saya tidak bertanggung jawab** terhadap **tindakan pengguna yang menggunakan program ini untuk tujuan ilegal!**  
-# [Bantuan](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/README.md)
+# Bantuan
+> ## Memulai Dengan Python
+>> 1. Download Bahasa Pemrograman Python
+>>    
+>>    Download dan unduh bahasa pemrograman Python dari situs resmi https://www.python.org/downloads/
+>> 2. Salin Direktori File bin ke Variabel Lingkungan Sistem untuk Sistem Operasi Windows
+>>
+>>    1. Buka control panel atau panel kontrol
+>>    2. Cari variabel dan pilih Edit variabel lingkungan sistem (membutuhkan akses administrator) seperti pada gambar dibawah ini
+>>   
+>>       
 # Media Sosial
 > - Instagram : [@rifkydarmawan62](https://www.instagram.com/rifkydarmawan62/)
