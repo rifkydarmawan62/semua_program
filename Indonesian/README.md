@@ -7,7 +7,7 @@
 > ## [Kriptografi](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/kriptografi)
 >> | Nama | Kategori Program | Tanggal Pembaruan Terakhir |
 >> | --- | --- | --- |
->> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/unicode_standar.py) | Modul Python | 2 November 2023 |
+>> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/unicode_standar.py) | Modul Python | 9 November 2023 |
 >> | ~~Encoding and Decoding Standard Unicode Character~~ | Program Python Terminal/Konsol | 9 November 2023 (Dihapus) |
 >> | [Program Script Python CLI](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Program Python Terminal/Konsol | 9 November 2023 (Ditambahkan)|
 > ## [Metode Peretasan](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/metode_peretasan)
