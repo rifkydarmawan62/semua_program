@@ -3,7 +3,7 @@ import typing
 
 __all__ = ["PEMBARUAN_TERAKHIR", "exception_digit_bilangan_oktal_tidak_valid", "exception_digit_bilangan_biner_tidak_valid", "encoding_heksadesimal", "encoding_desimal", "encoding_oktal", "encoding_biner", "decoding_heksadesimal", "decoding_desimal", "decoding_oktal", "decoding_biner"]
 
-PEMBARUAN_TERAKHIR = "2 November 2023"
+PEMBARUAN_TERAKHIR = "9 November 2023"
 "Tanggal program terakhir kali diperbarui"
 
 class exception_digit_bilangan_oktal_tidak_valid(Exception):
