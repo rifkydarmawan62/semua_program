@@ -66,7 +66,7 @@
 >>    print("Hello World")
 >>    ~~~
 >>    Sebagai program pertama Python
->> 7. Pelajari dan kuasai syntax dasar bahasa bemrograman Python
+>> 7. Pelajari dan kuasai syntax dasar bahasa pemrograman Python
 >> 8. Eksplorasi pustaka standar Python
 >>
 >>    Anda dapat menemukan pustaka standar Python pada situs dokumentasi pemrograman Python di https://docs.python.org/3/
