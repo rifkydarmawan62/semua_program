@@ -1,14 +1,21 @@
-import tkinter.filedialog, csv, os, typing, base64, binascii
+import csv, os, base64, binascii, platform, subprocess
 from tkinter.filedialog import askopenfilename, askdirectory
 from typing import Literal
-import unicode_standar
 from unicode_standar import *
 try:
-    def menu_encode_dan_decode_unicode_standar():
-        os.system("cls")
-        print("beranda > kriptografi > unicode standar\n")
+    def cetak_informasi_pengembang():
         print("Instagram : @rifkydarmawan62")
         print("GitHub : rifkydarmawan62\n")
+    def bersihkan_layar():
+        sistem_operasi = platform.system()
+        if sistem_operasi == "Windows":
+            os.system("cls")
+        else:
+            os.system("clear")
+    def menu_encode_dan_decode_unicode_standar():
+        bersihkan_layar()
+        print("beranda > kriptografi > unicode standar\n")
+        cetak_informasi_pengembang()
         print("Daftar Menu Encode dan Decode Unicode Standar")
         print("[1] encode heksadesimal")
         print("[2] encode desimal")
@@ -42,8 +49,9 @@ try:
             elif menu_yang_dipilih == "8":
                 pilih_file_unicode_standar("decoding biner")
             elif menu_yang_dipilih == "9":
-                os.system("cls")
+                bersihkan_layar()
                 print("beranda > kriptografi > unicode standar > bantuan\n")
+                cetak_informasi_pengembang()
                 print("Menyediakan keamanan data dan kerahasiaan data file teks dengan kriptografi unicode standar")
                 print("Encode dan decode unicode standar hanya dapat digunakan pada teks karakter unicode yang akan di encode menjadi bilangan heksadesimal, desimal, oktal, dan biner.")
                 print("Sebaliknya data yang telah di encode dapat di decode kembali menjadi teks karakter unicode jika data yang telah di encode adalah valid\n")
@@ -186,10 +194,9 @@ try:
             direktori_file = askopenfilename(title = f"Pilih File Untuk {_encode_atau_decode.title()}", filetypes = [("Dokumen Teks", "*.txt"), ("Comma Separate Value", "*.csv")])
             baca_file(direktori_file)
     def menu_encode_dan_decode_python_base64():
-        os.system("cls")
+        bersihkan_layar()
         print("beranda > kriptografi > python base64\n")
-        print("Instagram : @rifkydarmawan62")
-        print("GitHub : rifkydarmawan62\n")
+        cetak_informasi_pengembang()
         print("Daftar Menu Encode dan Decode Python Base64")
         print("[1] base 16 encode (ASCII)")
         print("[2] base 16 decode (ASCII)")
@@ -291,9 +298,9 @@ try:
                     print("File Tidak Dibuka!")
                     kembali_ke_menu_python_base64()
             elif nomor_yang_dipilih == "13":
+                bersihkan_layar()
                 print("beranda > kriptografi > python base64 > bantuan\n")
-                print("Instagram : @rifkydarmawan62")
-                print("GitHub : rifkydarmawan62\n")
+                cetak_informasi_pengembang()
                 print("Menyediakan kriptografi yang lebih kompleks dengan pustaka standar python base64 untuk keamanan dan kerahasiaan data file txt")
                 print("Namun encoding dan decoding yang salah dapat menyebabkan perubahan data yang tidak benar dan data tidak dapat dibaca")
                 input("Tekan enter untuk menutup (Ctrl + C untuk keluar)")
@@ -312,10 +319,9 @@ try:
                 pilih_nomor()
         pilih_nomor()
     def menu_kriptografi():
-        os.system("cls")
+        bersihkan_layar()
         print("beranda > kriptografi\n")
-        print("Instagram : @rifkydarmawan62")
-        print("GitHub : rifkydarmawan62\n")
+        cetak_informasi_pengembang()
         print("Daftar Menu Kriptografi")
         print("[1] unicode standar")
         print("[2] python base64")
@@ -339,23 +345,399 @@ try:
                 print("Input Tidak Valid!")
                 pilih_nomor()
         pilih_nomor()
+    def menu_kalkulator():
+        bersihkan_layar()
+        print("beranda > kalkulator\n")
+        cetak_informasi_pengembang()
+        print("Daftar menu kalkulator")
+        print("[1] kalkulator dasar")
+        print("[2] konversi satuan bilangan")
+        print("[3] bersihkan")
+        print("[4] beranda")
+        print("[5] keluar (Ctrl + C)\n")
+        def pilih_menu():
+            menu_yang_dipilih = input("Pilih nomor : ")
+            if menu_yang_dipilih == "1":
+                menu_kalkulator_dasar()
+            elif menu_yang_dipilih == "2":
+                menu_konversi_satuan_bilangan()
+            elif menu_yang_dipilih == "3":
+                menu_kalkulator()
+            elif menu_yang_dipilih == "4":
+                beranda()
+            elif menu_yang_dipilih == "5":
+                print("Menutup program ...")
+                exit(0)
+            else:
+                print("Input Tidak Valid!")
+                pilih_menu()
+        pilih_menu()
+    def menu_kalkulator_dasar():
+        bersihkan_layar()
+        print("beranda > kalkulator > kalkulator dasar\n")
+        cetak_informasi_pengembang()
+        print("Daftar menu : ")
+        print("[1] bersihkan")
+        print("[2] kembali")
+        print("[3] beranda")
+        print("[4] keluar\n")
+        print("Simbol operator : ")
+        print("Operator penjumlahan (+)")
+        print("Operator pengurangan (-)")
+        print("Operator perkalian (*)")
+        print("Operator pangkat 2 atau kuadrat (**)")
+        print("Operator pembagian (/)")
+        print("Operator pembagian dengan hasil tipe data integer (//)")
+        print("Operator sisa pembagian (%)\n")
+        print("Contoh input : 1+1")
+        #print("*Input dapat berupa objek variabel, kelas, atau fungsi")
+        def input_operator_atau_pilih_menu():
+            operasi_yang_diinput = input("Masukkan input : ")
+            if operasi_yang_diinput == "1":
+                menu_kalkulator_dasar()
+            elif operasi_yang_diinput == "2":
+                menu_kalkulator()
+            elif operasi_yang_diinput == "3":
+                beranda()
+            elif operasi_yang_diinput == "4":
+                print("Menutup program ...")
+                exit(0)
+            try:
+                operasi_yang_diinput = eval(operasi_yang_diinput)
+            except SyntaxError:
+                print("Input Operator Tidak Valid!")
+                input_operator_atau_pilih_menu()
+            except NameError:
+                print("Tidak dapat melakukan operasi terhadap nama variabel, kelas, atau fungsi")
+                input_operator_atau_pilih_menu()
+            except ZeroDivisionError:
+                print("Pembagian Nol Tidak Valid!")
+                input_operator_atau_pilih_menu()
+            else:
+                print(f"Hasil = {operasi_yang_diinput}")
+                input_operator_atau_pilih_menu()
+        input_operator_atau_pilih_menu()
+    def menu_konversi_satuan_bilangan():
+        bersihkan_layar()
+        print("beranda > kalkulator > konversi satuan bilangan\n")
+        cetak_informasi_pengembang()
+        print("Daftar menu konversi satuan bilangan")
+        print("[1] konversi bilangan heksadesimal ke bilangan desimal")
+        print("[2] konversi bilangan desimal ke bilangan heksadesimal")
+        print("[3] konversi bilangan heksadesimal ke bilangan oktal")
+        print("[4] konversi bilangan oktal ke bilangan heksadesimal")
+        print("[5] konversi bilangan heksadesimal ke bilangan biner")
+        print("[6] konversi bilangan biner ke bilangan heksadesimal")
+        print("[7] konversi bilangan desimal ke bilangan oktal")
+        print("[8] konversi bilangan oktal ke bilangan desimal")
+        print("[9] konversi bilangan desimal ke bilangan biner")
+        print("[10] konversi bilangan biner ke bilangan desimal")
+        print("[11] konversi bilangan oktal ke bilangan biner")
+        print("[12] konversi bilangan biner ke bilangan oktal")
+        print("[13] bersihkan")
+        print("[14] kembali")
+        print("[15] beranda")
+        print("[16] keluar (Ctrl + C)")
+        def kembali_ke_menu_konversi_satuan_bilangan():
+            input("Tekan enter untuk menutup (Ctrl + C untuk keluar)")
+            menu_konversi_satuan_bilangan()
+        def pilih_menu():
+            nomor_yang_dipilih = input("Pilih nomor : ")
+            try:
+                if nomor_yang_dipilih == "1":
+                    bilangan_heksadesimal = input("Masukkan bilangan heksadesimal : ")
+                    print(f"Hasil bilangan desimal = {int('0x' + bilangan_heksadesimal, base = 0)}")
+                    kembali_ke_menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "2":
+                    bilangan_desimal = input("Masukkan bilangan desimal : ")
+                    print(f"Hasil bilangan heksadesimal = {hex(int(bilangan_desimal))[2:]}")
+                    kembali_ke_menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "3":
+                    bilangan_heksadesimal = input("Masukkan bilangan heksadesimal : ")
+                    print(f"Hasil bilangan oktal = {oct(int('0x' + bilangan_heksadesimal, base = 0))[2:]}")
+                    kembali_ke_menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "4":
+                    bilangan_oktal = input("Masukkan bilangan oktal : ")
+                    print(f"Hasil bilangan heksadesimal = {hex(int('0o' + bilangan_oktal, base = 0))[2:]}")
+                    kembali_ke_menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "5":
+                    bilangan_heksadesimal = input("Masukkan bilangan heksadesimal : ")
+                    print(f"Hasil bilangan biner = {bin(int('0x' + bilangan_heksadesimal, base = 0))[2:]}")
+                    kembali_ke_menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "6":
+                    bilangan_biner = input("Masukkan bilangan biner : ")
+                    print(f"Hasil bilangan heksadesimal = {hex(int('0b' + bilangan_biner, base = 0))[2:]}")
+                    kembali_ke_menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "7":
+                    bilangan_desimal = input("Masukkan bilangan desimal : ")
+                    print(f"Hasil bilangan oktal = {oct(int(bilangan_desimal))[2:]}")
+                    kembali_ke_menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "8":
+                    bilangan_oktal = input("Masukkan bilangan oktal : ")
+                    print(f"Hasil bilangan desimal = {int('0o' + bilangan_oktal, base = 0)}")
+                    kembali_ke_menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "9":
+                    bilangan_desimal = input("Masukkan bilangan desimal : ")
+                    print(f"Hasil bilangan biner = {bin(int(bilangan_desimal))[2:]}")
+                    kembali_ke_menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "10":
+                    bilangan_biner = input("Masukkan bilangan biner : ")
+                    print(f"Hasil bilangan desimal = {int('0b' + bilangan_biner, base = 0)}")
+                    kembali_ke_menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "11":
+                    bilangan_oktal = input("Masukkan bilangan oktal : ")
+                    print(f"Hasil bilangan biner = {bin(int('0o' + bilangan_oktal, base = 0))[2:]}")
+                    kembali_ke_menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "12":
+                    bilangan_biner = input("Masukkan bilangan biner : ")
+                    print(f"Hasil bilangan oktal = {oct(int('0b' + bilangan_biner, base = 0))[2:]}")
+                    kembali_ke_menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "13":
+                    menu_konversi_satuan_bilangan()
+                elif nomor_yang_dipilih == "14":
+                    menu_kalkulator()
+                elif nomor_yang_dipilih == "15":
+                    beranda()
+                elif nomor_yang_dipilih == "16":
+                    print("Menutup program ...")
+                    exit(0)
+                else:
+                    print("Input Tidak Valid!")
+                    pilih_menu()
+            except ValueError:
+                print("Nilai yang diinput tidak valid!")
+                pilih_menu()
+        pilih_menu()
+    def tampilkan_informasi_platform_perangkat():
+        bersihkan_layar()
+        print("beranda > tampilkan informasi platform perangkat\n")
+        cetak_informasi_pengembang()
+        print(f"Platform : {platform.platform()}")
+        print(f"Sistem operasi : {platform.system()}")
+        print(f"Versi sistem : {platform.version()}")
+        print(f"Prosesor : {platform.processor()}")
+        print(f"Mesin : {platform.machine()}")
+        print(f"Arsitektur : {platform.architecture()}")
+        input("Tekan Enter untuk kembali ke beranda (Ctrl + C untuk keluar)")
+        beranda()
+    def menu_integrasi_powershell():
+        def enter_untuk_kembali_ke_menu_integrasi_powershell():
+            input("Tekan Enter untuk kembali (Ctrl + C untuk keluar)")
+            menu_integrasi_powershell()
+        bersihkan_layar()
+        print("beranda > integrasi Command Line Interface Windows PowerShell\n")
+        cetak_informasi_pengembang()
+        if platform.system() != "Windows":
+            print("Integrasi CLI PowerShell Hanya Mendukung Sistem Operasi Windows!")
+            print(f"Sistem operasi yang anda gunakan : {platform.system()}")
+            input("Tekan Enter untuk kembali ke beranda (Ctrl + C untuk keluar)")
+            beranda()
+        print("Integrasi CLI PowerShell memperbolehkan pengguna mengakses sumber daya sistem operasi Windows")
+        print("Menjalankan PowerShell dengan hak akses administrator atau akun pengguna administrator dapat mengakses sumber daya sistem yang sensitif")
+        print("PowerShell memiliki fitur yang lebih kompleks daripada Command Prompt\n")
+        print("Daftar menu CLI PowerShell")
+        print("[-] bersihkan layar")
+        print("[-0] beranda")
+        print("[-00] keluar (Ctrl + C)")
+        print("[0] masukkan perintah PowerShell secara manual")
+        print("[1] tampilkan direktori saat ini (dir)")
+        print("[2] tampilkan seluruh proses aplikasi yang berjalan di latar belakang (ps)")
+        def pilih_menu():
+            menu_yang_dipilih = input("Pilih nomor : ")
+            if menu_yang_dipilih == "-":
+                menu_integrasi_powershell()
+            elif menu_yang_dipilih == "-0":
+                beranda()
+            elif menu_yang_dipilih == "-00":
+                print("Menutup program ...")
+                exit(0)
+            elif menu_yang_dipilih == "0":
+                perintah_powershell = input("Masukkan perintah PowerShell : ")
+                if perintah_powershell != "":
+                    subprocess.run(["powershell", f"{perintah_powershell}"], shell = False)
+                else:
+                    print("Input Kosong!")
+                enter_untuk_kembali_ke_menu_integrasi_powershell()
+            elif menu_yang_dipilih == "1":
+                subprocess.run(["powershell", "dir"], shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_powershell()
+            elif menu_yang_dipilih == "2":
+                subprocess.run(["powershell", "PS"], shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_powershell()
+                """
+            elif menu_yang_dipilih == "2":
+                pass
+            elif menu_yang_dipilih == "3":
+                pass
+            elif menu_yang_dipilih == "4":
+                pass
+                """
+            else:
+                print("Input Tidak Valid!")
+                pilih_menu()
+        pilih_menu()
+    def menu_integrasi_command_prompt():
+        def enter_untuk_kembali_ke_menu_integrasi_command_prompt():
+            input("Tekan Enter untuk kembali (Ctrl + C untuk keluar)")
+            menu_integrasi_command_prompt()
+        bersihkan_layar()
+        print("beranda > integrasi CLI Windows Command Prompt\n")
+        cetak_informasi_pengembang()
+        if platform.system() != "Windows":
+            print("Integrasi CLI Command Prompt Hanya Mendukung Sistem Operasi Windows!")
+            print(f"Sistem operasi yang anda gunakan : {platform.system()}")
+            input("Tekan Enter untuk kembali ke beranda (Ctrl + C untuk keluar)")
+            beranda()
+        print("Integrasi CLI Command Prompt memperbolehkan pengguna mengakses sumber daya sistem operasi Windows")
+        print("Menjalankan Command Prompt dengan hak akses administrator atau akun pengguna administrator dapat mengakses sumber daya sistem yang sensitif")
+        print("Command Prompt memiliki fitur yang lebih sederhana dan memiliki sumber daya yang mudah dipahami daripada PowerShell\n")
+        print("Daftar menu CLI Command Prompt")
+        print("[-] bersihkan layar")
+        print("[-0] beranda")
+        print("[-00] keluar (Ctrl + C)")
+        print("[0] masukkan perintah Command Prompt secara manual")
+        print("[1] tampilkan direktori saat ini (dir)")
+        print("[2] petunjuk Command Prompt (help)")
+        print("[3] bantuan warna (color help)")
+        print("[4] tampilkan koneksi jaringan aktif (netstat)")
+        print("[5] tampilkan koneksi jaringan aktif dan port yang terhubung (netstat -a)")
+        print("[6] tampilkan tabel router (netstat -r)")
+        print("[7] tampilkan statisik jaringan per protokol (netstat -s)")
+        print("[8] tampilkan koneksi Ethernet (netstat -e)")
+        print("[9] tampilkan koneksi Ethernet dan jaringan per protokol (netstat -e -s)")
+        print("[10] tampilkan seluruh koneksi TCP (netstat -y)")
+        print("[11] tampilkan koneksi jaringan aktif berdasarkan ID proses (netstat -o)")
+        print("[12] tampilkan koneksi jaringan aktif dan port yang terhubung berdasarkan ID proses (netstat -a -o)")
+        print("[13] tampilkan bantuan netstat (netstat help)")
+        print("[14] tampilkan konfigurasi alamat IP (ipconfig)")
+        print("[15] tampilkan detail konfigurasi alamat IP (ipconfig /all)")
+        print("[16] perbarui seluruh adapter jaringan (ipconfig /renew)")
+        print("[17] tampilkan informasi tentang semua kompartemen (ipconfig /allcompartments)")
+        print("[18] tampilkan detail informasi tentang semua kompartemen (ipconfig /allcompartments /all)")
+        print("[19] tampilkan konten DNS Resolver Cache (ipconfig /displaydns)")
+        print("[20] bersihkan DNS Resolver Cache (ipconfig /flushdns)")
+        print("[21] perbarui semua DHCP dan mendaftarkan kembali nama DNS (ipconfig /registerdns)")
+        print("[22] tampilkan semua ID kelas DHCP yang diizinkan untuk adaptor (ipconfig /showclassid)")
+        print("[23] tampilkan semua ID kelas DHCP IPv6 yang diizinkan untuk adaptor (ipconfig /showclassid6)")
+        print("[24] tampilkan bantuan ipconfig (ipconfig /?)")
+        def pilih_menu():
+            menu_yang_dipilih = input("Pilih nomor : ")
+            if menu_yang_dipilih == "-":
+                menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "-0":
+                beranda()
+            elif menu_yang_dipilih == "-00":
+                print("Menutup program ...")
+                exit(0)
+            elif menu_yang_dipilih == "0":
+                perintah_command_prompt = input("Masukkan perintah Command Prompt : ")
+                subprocess.run(f"{perintah_command_prompt}", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "1":
+                subprocess.run("dir", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "2":
+                subprocess.run("help", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "3":
+                subprocess.run("color help", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "4":
+                subprocess.run("netstat", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "5":
+                subprocess.run("netstat -a", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "6":
+                subprocess.run("netstat -r", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "7":
+                subprocess.run("netstat -s", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "8":
+                subprocess.run("netstat -e", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "9":
+                subprocess.run("netstat -e -s", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "10":
+                subprocess.run("netstat -y", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "11":
+                subprocess.run("netstat -o", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "12":
+                subprocess.run("netstat -a -o", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "13":
+                subprocess.run("netstat help", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "14":
+                subprocess.run("ipconfig", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "15":
+                subprocess.run("ipconfig /all", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "16":
+                subprocess.run("ipconfig /renew", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "17":
+                subprocess.run("ipconfig /allcompartments", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "18":
+                subprocess.run("ipconfig /allcompartments /all", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "19":
+                subprocess.run("ipconfig /displaydns", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "20":
+                subprocess.run("ipconfig /flushdns", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "21":
+                subprocess.run("ipconfig /registerdns", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "22":
+                subprocess.run("ipconfig /showclassid", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "23":
+                subprocess.run("ipconfig /showclassid6", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "24":
+                subprocess.run("ipconfig /?", shell = True)
+                enter_untuk_kembali_ke_menu_integrasi_command_prompt()
+            else:
+                print("Input Tidak Valid!")
+                pilih_menu()
+        pilih_menu()
     def beranda():
-        os.system("cls")
-        print("Script Program Python\n")
-        print("Instagram : @rifkydarmawan62")
-        print("GitHub : rifkydarmawan62\n")
-        print("Tanggal pembaruan : 9 November 2023\n")
+        bersihkan_layar()
+        print("Python Script Program Command Line Interface (CLI)\n")
+        cetak_informasi_pengembang()
+        print("Tanggal pembaruan : 11 November 2023\n")
+        print("Disclaimer : Beberapa program CLI PowerShell dan Command Prompt dapat merubah fungsi sistem. Kerusakan yang terjadi akibat tindakan pengguna adalah di luar tanggung jawab pengembang\n")
         print("Daftar Menu")
         print("[1] kriptografi")
-        print("[2] bersihkan")
-        print("[3] keluar (Ctrl + C)\n")
+        print("[2] kalkulator")
+        print("[3] tampilkan informasi platform perangkat")
+        print("[4] integrasi Command Line Interface (CLI) Windows PowerShell")
+        print("[5] integrasi Command Line Interface (CLI) Windows Command Prompt")
+        print("[6] bersihkan")
+        print("[7] keluar (Ctrl + C)\n")
         def pilih_menu():
-            menu_yang_dipilih = input("Pilih menu : ")
-            if menu_yang_dipilih.lower() == "1" or menu_yang_dipilih.lower() == "kriptografi":
+            menu_yang_dipilih = input("Pilih nomor : ")
+            if menu_yang_dipilih == "1":
                 menu_kriptografi()
-            elif menu_yang_dipilih.lower() == "2" or menu_yang_dipilih.lower() == "bersihkan":
+            elif menu_yang_dipilih == "2":
+                menu_kalkulator()
+            elif menu_yang_dipilih == "3":
+                tampilkan_informasi_platform_perangkat()
+            elif menu_yang_dipilih == "4":
+                menu_integrasi_powershell()
+            elif menu_yang_dipilih == "5":
+                menu_integrasi_command_prompt()
+            elif menu_yang_dipilih == "6":
                 beranda()
-            elif menu_yang_dipilih.lower() == "3" or menu_yang_dipilih.lower() == "keluar":
+            elif menu_yang_dipilih == "7":
                 print("Menutup program ...")
                 exit(0)
             else:
@@ -367,3 +749,6 @@ try:
 except KeyboardInterrupt:
     print("Menutup program ...")
     exit(0)
+except Exception as global_error:
+    print("Terjadi error di sepanjang program")
+    print(f"Log Error : {global_error}")

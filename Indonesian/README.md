@@ -8,7 +8,7 @@
 >> Antarmuka Baris Perintah
 >> | Nama | Kategori Program | Tanggal Pembaruan Terakhir |
 >> | --- | --- | --- |
->> | [Program Script Python CLI](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Program Python Terminal/Konsol | 9 November 2023 (Ditambahkan)|
+>> | [Program Script Python CLI](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Program Python Terminal/Konsol | 11 November 2023 |
 > ## [Kriptografi](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/kriptografi)
 >> | Nama | Kategori Program | Tanggal Pembaruan Terakhir |
 >> | --- | --- | --- |
