@@ -8,7 +8,7 @@
 >> Antarmuka Baris Perintah
 >> | Nama | Kategori Program | Tanggal Pembaruan Terakhir |
 >> | --- | --- | --- |
->> | [Program Script Python CLI](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Program Python Terminal/Konsol | 11 November 2023 |
+>> | [Program Script Python CLI](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/__main__.py) | Program Python Terminal/Konsol | 14 November 2023 |
 > ## [Kriptografi](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/kriptografi)
 >> | Nama | Kategori Program | Tanggal Pembaruan Terakhir |
 >> | --- | --- | --- |
@@ -171,5 +171,15 @@
 >>>   for serangan_biner in brute_force_biner(8, "string"):
 >>>       "Program berbahaya untuk brute force biner"
 >>>   ~~~
+> ## Instalasi
+>> 1. Pastikan anda telah menginstal git terlebih dahulu dari https://git-scm.com
+>> 2. Ganti direktori file yang akan diunduh
+>>    ~~~bash
+>>    cd direktori\file\yang\akan\diunduh
+>>    ~~~
+>> 3. Download repository pemrograman saya
+>>    ~~~bash
+>>    git clone https://github.com/rifkydarmawan62/program_publik
+>>    ~~~
 # Media Sosial
 > - Instagram : [@rifkydarmawan62](https://www.instagram.com/rifkydarmawan62/)
