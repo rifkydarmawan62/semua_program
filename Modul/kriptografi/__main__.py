@@ -535,7 +535,7 @@ try:
                         subprocess.run(["powershell", perintah_per_baris.strip()])
                     else:
                         print(f"Menjalankan perintah Command Prompt {perintah_per_baris.strip()}")
-                        subprocess.run(perintah_per_baris.strip())
+                        subprocess.run(perintah_per_baris.strip(), shell = True)
         for kunci_dictionary in integrasi.keys():
             match kunci_dictionary:
                 case "PowerShell":
@@ -769,28 +769,28 @@ try:
                 case "11":
                     menu_command_prompt_sc()
                 case "12":
-                    subprocess.run("call /?")
+                    subprocess.run("call /?", shell = True)
                     enter_untuk_kembali_ke_menu_integrasi_command_prompt()
                 case "13":
-                    subprocess.run("ping")
+                    subprocess.run("ping", shell = True)
                     enter_untuk_kembali_ke_menu_integrasi_command_prompt()
                 case "14":
-                    subprocess.run("tracert")
+                    subprocess.run("tracert", shell = True)
                     enter_untuk_kembali_ke_menu_integrasi_command_prompt()
                 case "15":
-                    subprocess.run("ver")
+                    subprocess.run("ver", shell = True)
                     enter_untuk_kembali_ke_menu_integrasi_command_prompt()
                 case "16":
-                    subprocess.run("vol /?")
+                    subprocess.run("vol /?", shell = True)
                     enter_untuk_kembali_ke_menu_integrasi_command_prompt()
                 case "17":
-                    subprocess.run("vol")
+                    subprocess.run("vol", shell = True)
                     enter_untuk_kembali_ke_menu_integrasi_command_prompt()
                 case "18":
-                    subprocess.run("set /?")
+                    subprocess.run("set /?", shell = True)
                     enter_untuk_kembali_ke_menu_integrasi_command_prompt()
                 case "19":
-                    subprocess.run("set")
+                    subprocess.run("set", shell = True)
                     enter_untuk_kembali_ke_menu_integrasi_command_prompt()
                 case _:
                     print("Input Tidak Valid!")
@@ -1024,69 +1024,69 @@ try:
                     input_perintah_command_prompt_manual("netsh")
                 case "1":
                     print("Anda masuk ke baris perintah netsh")
-                    subprocess.run("netsh")
+                    subprocess.run("netsh", shell = True)
                     print("Anda keluar dari baris perintah netsh")
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "2":
-                    subprocess.run("netsh help")
+                    subprocess.run("netsh help", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "3":
-                    subprocess.run("netsh wlan")
+                    subprocess.run("netsh wlan", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "4":
-                    subprocess.run("netsh wlan show all")
+                    subprocess.run("netsh wlan show all", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "5":
-                    subprocess.run("netsh wlan show allowexplicitcreds")
+                    subprocess.run("netsh wlan show allowexplicitcreds", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "6":
-                    subprocess.run("netsh wlan show autoconfig")
+                    subprocess.run("netsh wlan show autoconfig", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "7":
-                    subprocess.run("netsh wlan show blockednetworks")
+                    subprocess.run("netsh wlan show blockednetworks", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "8":
-                    subprocess.run("netsh wlan show createalluserprofile")
+                    subprocess.run("netsh wlan show createalluserprofile", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "9":
-                    subprocess.run("netsh wlan show drivers")
+                    subprocess.run("netsh wlan show drivers", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "10":
-                    subprocess.run("netsh wlan show filters")
+                    subprocess.run("netsh wlan show filters", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "11":
-                    subprocess.run("netsh wlan show hostednetwork")
+                    subprocess.run("netsh wlan show hostednetwork", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "12":
-                    subprocess.run("netsh wlan show interfaces")
+                    subprocess.run("netsh wlan show interfaces", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "13":
-                    subprocess.run("netsh wlan show networks")
+                    subprocess.run("netsh wlan show networks", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "14":
-                    subprocess.run("netsh wlan show onlyUseGPProfilesforAllowedNetworks")
+                    subprocess.run("netsh wlan show onlyUseGPProfilesforAllowedNetworks", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "15":
-                    subprocess.run("netsh wlan show profiles")
+                    subprocess.run("netsh wlan show profiles", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "16":
-                    subprocess.run("netsh wlan show randomization")
+                    subprocess.run("netsh wlan show randomization", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "17":
-                    subprocess.run("netsh wlan show settings")
+                    subprocess.run("netsh wlan show settings", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "18":
-                    subprocess.run("netsh wlan show tracing")
+                    subprocess.run("netsh wlan show tracing", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "19":
-                    subprocess.run("netsh wlan show wirelesscapabilities")
+                    subprocess.run("netsh wlan show wirelesscapabilities", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "20":
-                    subprocess.run("netsh wlan show wlanreport")
+                    subprocess.run("netsh wlan show wlanreport", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case "21":
                     nama_profil_wlan = input("Masukkan nama profil wlan : ")
-                    subprocess.run(f"netsh wlan show profiles {nama_profil_wlan} key=clear")
+                    subprocess.run(f"netsh wlan show profiles {nama_profil_wlan} key=clear", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_netsh()
                 case _:
                     print("Input Tidak Valid!")
@@ -1127,13 +1127,13 @@ try:
                 case "0":
                     input_perintah_command_prompt_manual("tasklist")
                 case "1":
-                    subprocess.run("tasklist /?")
+                    subprocess.run("tasklist /?", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_tasklist()
                 case "2":
-                    subprocess.run("tasklist")
+                    subprocess.run("tasklist", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_tasklist()
                 case "3":
-                    subprocess.run("tasklist /SVC")
+                    subprocess.run("tasklist /SVC", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_tasklist()
                 case _:
                     print("Input Tidak Valid!")
@@ -1172,7 +1172,7 @@ try:
                 case "0":
                     input_perintah_command_prompt_manual("taskkill")
                 case "1":
-                    subprocess.run("taskkill /?")
+                    subprocess.run("taskkill /?", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_taskkill()
                 case _:
                     print("Input Tidak Valid!")
@@ -1218,27 +1218,27 @@ try:
                 case "0":
                     input_perintah_command_prompt_manual("shutdown")
                 case "1":
-                    subprocess.run("shutdown")
+                    subprocess.run("shutdown", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_shutdown()
                 case "2":
                     print("Jendela antarmuka pengguna grafis shutdown dibuka!")
-                    subprocess.run("shutdown /i")
+                    subprocess.run("shutdown /i", shell = True)
                     print("Jendela antarmuka pengguna grafis shutdown ditutup!")
                     enter_untuk_kembali_ke_menu_command_prompt_shutdown()
                 case "3":
-                    subprocess.run("shutdown /l")
+                    subprocess.run("shutdown /l", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_shutdown()
                 case "4":
-                    subprocess.run("shutdown /s")
+                    subprocess.run("shutdown /s", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_shutdown()
                 case "5":
-                    subprocess.run("shutdown /sg")
+                    subprocess.run("shutdown /sg", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_shutdown()
                 case "6":
-                    subprocess.run("shutdown /r")
+                    subprocess.run("shutdown /r", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_shutdown()
                 case "7":
-                    subprocess.run("shutdown /g")
+                    subprocess.run("shutdown /g", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_shutdown()
                 case _:
                     print("Input Tidak Valid!")
@@ -1277,10 +1277,10 @@ try:
                 case "0":
                     input_perintah_command_prompt_manual("systeminfo")
                 case "1":
-                    subprocess.run("systeminfo /?")
+                    subprocess.run("systeminfo /?", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_systeminfo()
                 case "2":
-                    subprocess.run("systeminfo")
+                    subprocess.run("systeminfo", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_systeminfo()
                 case _:
                     print("Input Tidak Valid!")
@@ -1327,37 +1327,37 @@ try:
                 case "0":
                     input_perintah_command_prompt_manual("sc")
                 case "1":
-                    subprocess.run("sc")
+                    subprocess.run("sc", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_sc()
                 case "2":
-                    subprocess.run("sc query")
+                    subprocess.run("sc query", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_sc()
                 case "3":
-                    subprocess.run("sc query eventlog")
+                    subprocess.run("sc query eventlog", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_sc()
                 case "4":
-                    subprocess.run("sc queryex eventlog")
+                    subprocess.run("sc queryex eventlog", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_sc()
                 case "5":
-                    subprocess.run("sc query type= driver")
+                    subprocess.run("sc query type= driver", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_sc()
                 case "6":
-                    subprocess.run("sc query type= service")
+                    subprocess.run("sc query type= service", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_sc()
                 case "7":
-                    subprocess.run("sc query state= all")
+                    subprocess.run("sc query state= all", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_sc()
                 case "8":
-                    subprocess.run("sc query bufsize= 50")
+                    subprocess.run("sc query bufsize= 50", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_sc()
                 case "9":
-                    subprocess.run("sc queryex group= \"\"")
+                    subprocess.run("sc queryex group= \"\"", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_sc()
                 case "10":
-                    subprocess.run("sc query type= interact")
+                    subprocess.run("sc query type= interact", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_sc()
                 case "11":
-                    subprocess.run("sc query type= driver group= NDIS")
+                    subprocess.run("sc query type= driver group= NDIS", shell = True)
                     enter_untuk_kembali_ke_menu_command_prompt_sc()
                 case _:
                     print("Input Tidak Valid!")
