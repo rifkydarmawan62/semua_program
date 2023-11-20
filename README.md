@@ -7,12 +7,13 @@
 > | Name | Program Category | Last Update Date |
 > | --- | --- | --- |
 > | [Python Script CLI Program](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/__main__.py) | Terminal/Console Python Program | 17 November 2023 |
-> | Hacking Method | [Python Module](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/metode_peretasan)<br>PHP Module | 26 October 2023<br>None |
+> | Hacking Method | [Python Module](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/metode_peretasan)<br>[PHP Module](https://github.com/rifkydarmawan62/program_publik/blob/Publik/PHP/Modul/metode_peretasan.php) | 20 November 2023<br>20 November 2023 (added) |
+> | [String Function](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/fungsi_string) | Python Module | 20 November 2023 (added) |
 > ## [Cryptography](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/kriptografi)
 >> | Name | Program Category | Last Update Date |
 >> | --- | --- | --- |
 >> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/kriptografi/unicode_standar.py) | Python Module | 9 November 2023 |
->> | ~~Encoding and Decoding Standard Unicode Character~~ | Terminal/Console Python Program | 9 November 2023 (Deleted) |
+>> | ~~Encoding and Decoding Standard Unicode Character~~ | Terminal/Console Python Program | 9 November 2023 (deleted) |
 > ## [Internet Network Configuration](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/jaringan_internet)
 >> | Name | Program Category |
 >> | --- | --- |
