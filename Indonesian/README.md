@@ -8,41 +8,33 @@
 >> Antarmuka Baris Perintah
 >> | Nama | Kategori Program | Tanggal Pembaruan Terakhir |
 >> | --- | --- | --- |
->> | [Program Script Python CLI](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/__main__.py) | Program Python Terminal/Konsol | 17 November 2023 |
-> ## [Kriptografi](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/kriptografi)
+>> | [Program Script Python CLI](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/__main__.py) | Program Python Terminal/Konsol | 17 November 2023 |
+>> | Metode Peretasan | [Modul Python](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/metode_peretasan)<br>Modul PHP | 26 Oktober 2023<br>Tidak Ada|
+> ## [Kriptografi](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/kriptografi)
 >> | Nama | Kategori Program | Tanggal Pembaruan Terakhir |
 >> | --- | --- | --- |
->> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/kriptografi/unicode_standar.py) | Modul Python | 9 November 2023 |
+>> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/kriptografi/unicode_standar.py) | Modul Python | 9 November 2023 |
 >> | ~~Encoding and Decoding Standard Unicode Character~~ | Program Python Terminal/Konsol | 9 November 2023 (Dihapus) |
-> ## [Metode Peretasan](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/metode_peretasan)
->> | Nama | Kategori Program | Tanggal Pembaruan Terakhir |
->> | --- | --- | --- |
->> | [Brute Force Standar](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Modul Python | 26 Oktober 2023 |
->> | [Serangan Kamus](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Modul Python | 26 Oktober 2023 |
->> | [Brute Force Heksadesimal](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Modul Python | 26 Oktober 2023 |
->> | [Brute Force Pin](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Modul Python | 26 Oktober 2023 |
->> | [Brute Force Oktal](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Modul Python | 26 Oktober 2023 |
->> | [Brute Force Biner](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/metode_peretasan/__init__.py) | Modul Python | 26 Oktober 2023 |
-> ## [Konfigurasi Jaringan Internet](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/jaringan_internet)
+> ## [Konfigurasi Jaringan Internet](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/jaringan_internet)
 >> | Nama | Kategori Program |
 >> | --- | --- |
->> | [port](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/jaringan_internet/port) | Modul Python |
->> | [netmask](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Modul/jaringan_internet/netmask) | Modul Python |
+>> | [port](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/jaringan_internet/port) | Modul Python |
+>> | [netmask](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/jaringan_internet/netmask) | Modul Python |
 > ## Konfigurasi Waktu
 >> | Nama | Kategori Program |
 >> | --- | --- |
->> | [waktu_sekarang](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/waktu_sekarang/__init__.py) | Modul Python |
+>> | [waktu_sekarang](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/waktu_sekarang/__init__.py) | Modul Python |
 > ## Fungsi Matematika
 >> | Nama | Kategori Program |
 >> | --- | --- |
->> | [hasil_faktorial](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/matematika/__init__.py) | Modul Python |
->> | [deret_bilangan_prima](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/matematika/__init__.py) | Modul Python |
->> | [cek_bilangan_prima](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Modul/matematika/__init__.py) | Modul Python |
+>> | [hasil_faktorial](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/matematika/__init__.py) | Modul Python |
+>> | [deret_bilangan_prima](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/matematika/__init__.py) | Modul Python |
+>> | [cek_bilangan_prima](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/matematika/__init__.py) | Modul Python |
 > ## Lainnya
 >> | Nama | Kategori Program | Tanggal Pembaruan Terakhir |
 >> | --- | --- | --- |
->> | [manager file txt](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Manager%20File%20txt) | Program Python Aplikasi Desktop | 5 November 2023 |
->> | [Konversi Warna](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Konversi%20Warna.py) | Program Python Aplikasi Desktop | 5 November 2023 (Ditambahkan) |
+>> | [manager file txt](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Manager%20File%20txt) | Program Python Aplikasi Desktop | 5 November 2023 |
+>> | [Konversi Warna](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Konversi%20Warna.py) | Program Python Aplikasi Desktop | 5 November 2023 (Ditambahkan) |
 >> | [Pointer Array Dua Dimensi](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C++/Dasar-Dasar/Pointer%20Array.cpp) | Program C++ Terminal/Konsol | Tidak Ada |
 >> | [static dan non static](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/static%20dan%20non%20static.cpp) | Program C++ Terminal/Konsol | Tidak Ada |
 # Disclaimer dan Informasi:
