@@ -2,21 +2,35 @@
 import typing
 from tkinter import filedialog
 
-__all__ = ["PEMBARUAN_TERAKHIR", "exception_karakter_kata_sandi_bukan_ascii", "brute_force_standar", "brute_force_heksadesimal", "brute_force_pin", "kamus", "brute_force_oktal", "brute_force_biner"]
-
-PEMBARUAN_TERAKHIR = "26 Oktober 2023"
+PEMBARUAN_TERAKHIR : str = "20 November 2023"
 "Tanggal program terakhir kali diperbarui"
 
 class exception_karakter_kata_sandi_bukan_ascii(Exception):
     def __init__(self):
         "Exception untuk karakter kata sandi bukan ascii"
-        super().__init__("Karakter Kata Sandi Bukan ASCII!")
+        self.__PESAN_ERROR = "Karakter Kata Sandi Bukan ASCII!"
+        Exception.__init__(self, self.__PESAN_ERROR)
+class exception_abjad_tunggal_duplikasi(Exception):
+    def __init__(self, __string : str):
+        "Exception untuk abjad tunggal yang memiliki duplikasi"
+        self.__PESAN_ERROR = f"String \"{__string}\" memiliki abjad tunggal duplikasi!"
+        Exception.__init__(self, self.__PESAN_ERROR)
 
-def brute_force_standar(karakter_kata_sandi : str, panjang_kata_sandi : typing.Literal[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]) -> typing.Iterator[str]:
-    "Hanya karakter ASCII yang diperbolehkan. Membutuhkan perulangan for untuk memuat serangan brute force"
+def brute_force_standar(karakter_kata_sandi : str, panjang_kata_sandi : int) -> typing.Iterator[str]:
+    """
+    Membutuhkan perulangan for untuk memuat serangan brute force.\n
+    Menimbulkan exception jika argumen:\n
+    (karakter_kata_sandi : str) kosong, abjad terduplikasi, dan non ASCII\n
+    panjang_kata_sandi <= 0\n
+    """
+    kedua_argumen_valid : bool = not (len(karakter_kata_sandi) <= 0 or panjang_kata_sandi <= 0)
+    assert kedua_argumen_valid, "Salah satu dari kedua argumen brute_force_standar(karakter_kata_sandi : str, panjang_kata_sandi : int) tidak valid!"
     if not karakter_kata_sandi.isascii():
         raise exception_karakter_kata_sandi_bukan_ascii()
     else:
+        for abjad_tunggal in karakter_kata_sandi:
+            if karakter_kata_sandi.count(abjad_tunggal) > 1:
+                raise exception_abjad_tunggal_duplikasi(karakter_kata_sandi)
         def loop_kata_sandi(kata_sandi_brute_force : str) -> typing.Iterator[str]:
             if len(kata_sandi_brute_force) < digit_brute_force_saat_ini:
                 for kata_sandi_tambahan in karakter_kata_sandi:
