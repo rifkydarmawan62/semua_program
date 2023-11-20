@@ -8,7 +8,7 @@
 > | --- | --- | --- |
 > | [Python Script CLI Program](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/__main__.py) | Terminal/Console Python Program | 17 November 2023 |
 > | Hacking Method | [Python Module](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/metode_peretasan)<br>[PHP Module](https://github.com/rifkydarmawan62/program_publik/blob/Publik/PHP/Modul/metode_peretasan.php) | 20 November 2023<br>20 November 2023 (added) |
-> | [String Function](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/fungsi_string) | Python Module | 20 November 2023 (added) |
+> | String Function | [Python Module](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/fungsi_string)<br>[PHP Module](https://github.com/rifkydarmawan62/program_publik/blob/Publik/PHP/Modul/fungsi_string.php) | 20 November 2023 (added)<br>20 November 2023 (added) |
 > ## [Cryptography](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/kriptografi)
 >> | Name | Program Category | Last Update Date |
 >> | --- | --- | --- |
