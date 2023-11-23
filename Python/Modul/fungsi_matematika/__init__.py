@@ -28,7 +28,7 @@ def balikkan_bilangan(__dari_angka : int | float | Iterable[int | float]) -> int
             item_hasil.append(proses_pembalikan_bilangan(item_angka))
         return item_hasil
 def adalah_bilangan_positif(__angka : int | float | Iterable[int | float]) -> bool | list[bool]:
-    "Mengembalikan True jika angka adalah bilangan positif mengembalikan False jika tidak"
+    "Mengembalikan True jika angka adalah bilangan positif, mengembalikan False jika tidak"
     def proses_bilangan_postif(__angka : int | float) -> bool:
         if __angka > 0:
             return True
@@ -42,7 +42,7 @@ def adalah_bilangan_positif(__angka : int | float | Iterable[int | float]) -> bo
             item_hasil.append(proses_bilangan_postif(item_angka))
         return item_hasil
 def adalah_bilangan_negatif(__angka : int | float | Iterable[int | float]) -> bool | list[bool]:
-    "Mengembalikan True jika angka adalah bilangan negatif mengembalikan False jika tidak"
+    "Mengembalikan True jika angka adalah bilangan negatif, mengembalikan False jika tidak"
     def proses_bilangan_negatif(__angka : int | float) -> bool:
         if __angka < 0:
             return True
@@ -56,6 +56,7 @@ def adalah_bilangan_negatif(__angka : int | float | Iterable[int | float]) -> bo
             item_hasil.append(proses_bilangan_negatif(item_angka))
         return item_hasil
 def adalah_bilangan_genap(__angka : int | Iterable[int]) -> bool | list[bool]:
+    "Mengembalikan True jika angka adalah bilangan genap, mengembalikan False jika tidak"
     def pembagian_bilangan_genap(__angka : int) -> bool:
         if __angka == 0:
             return True
@@ -73,6 +74,7 @@ def adalah_bilangan_genap(__angka : int | Iterable[int]) -> bool | list[bool]:
             item_hasil.append(pembagian_bilangan_genap(item_angka))
         return item_hasil
 def adalah_bilangan_ganjil(__angka : int | Iterable[int]) -> bool | list[bool]:
+    "Mengembalikan True jika angka adalah bilangan ganjil, mengembalikan False jika tidak"
     def pembagian_bilangan_ganjil(__angka : int) -> bool:
         if __angka == 0:
             return False
@@ -123,7 +125,7 @@ def deret_bilangan_prima(__maksimum_angka : int, __tuple_output : bool = False) 
     else:
         return bilangan_prima
 def adalah_bilangan_prima(__angka : int | Iterable[int]) -> bool | list[bool]:
-    "Mengembalikan True jika argumen angka adalah bilangan prima. Mengembalikan False jika argumen angka bukan bilangan prima"
+    "Mengembalikan True jika angka adalah bilangan prima, mengembalikan False jika tidak"
     def pembagian_bilangan_prima(__angka : int) -> bool:
         if __angka > 1:
             for nilai_pembagian in range(2, __angka):
