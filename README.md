@@ -66,12 +66,12 @@
 >>    ~~~
 >> 10. Teruslah belajar
 > ## Dokumentasi
+>> - ~~~Python
+>>   PEMBARUAN_TERAKHIR : Literal[str]
+>>   ~~~
+>>   
+>>   Tanggal program terakhir kali diperbarui
 >> ### Metode Peretasan
->>> - ~~~Python
->>>   PEMBARUAN_TERAKHIR : Literal[str]
->>>   ~~~
->>>   
->>>   Tanggal program terakhir kali diperbarui
 >>> #### Exception
 >>>> - ~~~Python
 >>>>   class exception_karakter_kata_sandi_bukan_ascii
@@ -87,12 +87,14 @@
 >>>>   def brute_force_standar(karakter_kata_sandi : str, panjang_kata_sandi : int) -> typing.Iterator[str]
 >>>>   ~~~
 >>>>   Metode serangan brute force standar.  
->>>>   Kemungkinan exception:
+>>>>   Kemungkinan exception :
+>>>>   
 >>>>   ~~~Python
 >>>>   raise exception_karakter_kata_sandi_bukan_ascii
 >>>>   raise exception_abjad_tunggal_duplikasi
 >>>>   ~~~
->>>>   Penggunaan:
+>>>>   Penggunaan :
+>>>>   
 >>>>   ~~~Python
 >>>>   from metode_peretasan import *
 >>>>   
@@ -129,7 +131,7 @@
 >>>>       assert jumlah_digit > 0, "Jumlah Digit Harus Lebih Dari Nol!"
 >>>>   ~~~
 >>>>   Melancarkan serangan brute force pin.  
->>>>   Penggunaan:
+>>>>   Penggunaan :
 >>>>   ~~~Python
 >>>>   from metode_peretasan import *
 >>>>   
@@ -141,7 +143,7 @@
 >>>>       assert jumlah_digit_oktal > 0, "Jumlah Digit Oktal Harus Lebih Dari Nol!"
 >>>>   ~~~
 >>>>   Melancarkan serangan brute force oktal.  
->>>>   Penggunaan:
+>>>>   Penggunaan :
 >>>>   ~~~Python
 >>>>   from metode_peretasan import *
 >>>>   
@@ -153,12 +155,128 @@
 >>>>       assert jumlah_digit_biner > 0, "Jumlah Digit Biner Harus Lebih Dari Nol!"
 >>>>   ~~~
 >>>>   Melancarkan serangan brute force biner.  
->>>>   Penggunaan:
+>>>>   Penggunaan :
 >>>>   ~~~Python
 >>>>   from metode_peretasan import *
 >>>>   
 >>>>   for serangan_biner in brute_force_biner(8, "string"):
 >>>>       "Program berbahaya untuk brute force biner"
+>>>>   ~~~
+>> ### Fungsi Matematika
+>>> #### Exception
+>>>> Kemungkinan exception dari semua operasi matematika :
+>>>> ~~~Python
+>>>> raise AssertionError
+>>>> ~~~
+>>> #### Konstanta
+>>>> - ~~~Python
+>>>>   NILAI_PI = 3.14
+>>>>   "Nilai π untuk lingkaran"
+>>>>   __JUMLAH_SISI_PERSEGI = 4
+>>>>   SATU_PER_DUA, SETENGAH = 0.5, 0.5
+>>>>   PERSEN, PER_SERATUS = 100, 100
+>>>>   "Nilai 100%"
+>>>>   ~~~
+>>> #### Fungsi
+>>>> - ~~~Python
+>>>>   def balikkan_bilangan(__dari_angka : int | float | Iterable[int | float]) -> int | float | list[int | float]
+>>>>   ~~~
+>>>>   Membalikan bilangan positif menjadi bilangan negatif atau membalikan bilangan bilangan negatif menjadi bilangan positif.  
+>>>>   Rumus :
+>>>>   ~~~Python
+>>>>   positif_sepuluh = 10
+>>>>   negatif_sepuluh = -10
+>>>>   bilangan_positif = negatif_sepuluh * -1
+>>>>   bilangan_negatif = 0 - positif_sepuluh
+>>>>   ~~~
+>>>> - ~~~Python
+>>>>   def adalah_bilangan_positif(__angka : int | float | Iterable[int | float]) -> bool | list[bool]
+>>>>   ~~~
+>>>>   Mengembalikan True jika angka adalah bilangan positif, mengembalikan False jika tidak
+>>>>   
+>>>> - ~~~Python
+>>>>   def adalah_bilangan_negatif(__angka : int | float | Iterable[int | float]) -> bool | list[bool]
+>>>>   ~~~
+>>>>   Mengembalikan True jika angka adalah bilangan negatif, mengembalikan False jika tidak
+>>>> - ~~~Python
+>>>>   def adalah_bilangan_genap(__angka : int | Iterable[int]) -> bool | list[bool]
+>>>>   ~~~
+>>>>   Mengembalikan True jika angka adalah bilangan genap, mengembalikan False jika tidak
+>>>> - ~~~Python
+>>>>   def adalah_bilangan_ganjil(__angka : int | Iterable[int]) -> bool | list[bool]
+>>>>   ~~~
+>>>>   Mengembalikan True jika angka adalah bilangan ganjil, mengembalikan False jika tidak
+>>>> - ~~~Python
+>>>>   def hasil_faktorial(__dari_bilangan : int | Iterable[int]) -> int | list[bool]
+>>>>   ~~~
+>>>>   Mengembalikan nilai hasil dari bilangan faktorial
+>>>> - ~~~Python
+>>>>   def deret_bilangan_prima(__maksimum_angka : int, __tuple_output : bool = False) -> list[int] | tuple[int]
+>>>>   ~~~
+>>>>   Fungsi untuk membuat deret bilangan prima
+>>>> - ~~~Python
+>>>>   def adalah_bilangan_prima(__angka : int | Iterable[int]) -> bool | list[bool]
+>>>>   ~~~
+>>>>   Mengembalikan True jika angka adalah bilangan prima, mengembalikan False jika tidak
+>>>> - ~~~Python
+>>>>   def adalah_habis_dibagi(__angka : int | float | Iterable[int | float], *, dibagi_dengan : int | float) -> bool | list[bool]
+>>>>   ~~~
+>>>>   Mengembalikan True jika angka habis dibagi, mengembalikan False jika tidak
+>>>> - ~~~Python
+>>>>   @overload
+>>>>   def hasil_keliling_lingkaran(*, jari_jari : int | float | Iterable[int | float], bagian_lingkaran : int = 1) -> int | float | list[int | float]
+>>>>   ~~~
+>>>>   Rumus keliling lingkaran K = 2 x π x r
+>>>>   ~~~Python
+>>>>   @overload
+>>>>   def hasil_keliling_lingkaran(*, diameter : int | float | Iterable[int | float], bagian_lingkaran : int = 1) -> int | float | list[int | float]
+>>>>   ~~~
+>>>>   Rumus keliling lingkaran K = π x d
+>>>> - ~~~Python
+>>>>   def hasil_luas_lingkaran(jari_jari : int | float | Iterable[int | float], *, bagian_lingkaran : int = 1) -> int | float | list[int | float]
+>>>>   ~~~
+>>>>   Rumus luas lingkaran L = π x r x r
+>>>> - ~~~Python
+>>>>   def hasil_keliling_persegi(sisi : int | float | Iterable[int | float]) -> int | float | list[int | float]
+>>>>   ~~~
+>>>>   Rumus keliling persegi K = sisi x 4
+>>>> - ~~~Python
+>>>>   def hasil_luas_persegi(sisi : int | float | Iterable[int | float]) -> int | float | list[int | float]
+>>>>   ~~~
+>>>>   Rumus luas persegi L = sisi x sisi
+>>>> - ~~~Python
+>>>>   def hasil_keliling_persegi_panjang(*, panjang : int | float | Iterable[int | float], lebar : int | float | Iterable[int | float]) -> int | float | list[int | float]
+>>>>   ~~~
+>>>>   Rumus keliling persegi panjang K = (2 x panjang) + (2 x lebar)  
+>>>>   Penggunaan :
+>>>>   ~~~Python
+>>>>   hasil_keliling_persegi_panjang(panjang = 12, lebar = 10)
+>>>>   ~~~
+>>>> - ~~~Python
+>>>>   def hasil_keliling_segitiga(sisi_1 : int | float | Iterable[int | float], sisi_2 : int | float | Iterable[int | float], sisi_3 : int | float | Iterable[int | float]) -> int | float | list[int | float]
+>>>>   ~~~
+>>>>   Rumus keliling segitiga K = s + s + s
+>>>> - ~~~Python
+>>>>   def hasil_luas_segitiga(*, alas : int | float | Iterable[int | float], tinggi : int | float | Iterable[int | float]) -> int | float | list[int | float]
+>>>>   ~~~
+>>>>   Rumus luas segitiga L = ½ x a x t  
+>>>>   Penggunaan :
+>>>>   ~~~Python
+>>>>   hasil_luas_segitiga(alas = 12, tinggi = 10)
+>>>>   ~~~
+>>>> - ~~~Python
+>>>>   def hasil_pangkat(angka : int | Iterable[int], *, pangkat : int) -> int | list[int]
+>>>>   ~~~
+>>>>   Penggunaan :
+>>>>   ~~~Python
+>>>>   hasil_pangkat(2, pangkat = 4)
+>>>>   ~~~
+>>>> - ~~~Python
+>>>>   def hasil_persen(persen : int = PERSEN, *, dari_angka : int | float | Iterable[int | float]) -> int | float | list[int | float]
+>>>>   ~~~
+>>>>   Penggunaan :
+>>>>   ~~~Python
+>>>>   hasil_persen(25, dari_angka = 10_000_000)
 >>>>   ~~~
 > ## Instalasi
 >> 1. Pastikan anda telah menginstal git terlebih dahulu dari https://git-scm.com
