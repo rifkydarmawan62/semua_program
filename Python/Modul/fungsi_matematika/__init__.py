@@ -294,10 +294,10 @@ def hasil_pangkat(angka : int | Iterable[int], *, pangkat : int) -> int | list[i
         for item_angka in angka:
             item_hasil.append(proses_pangkat(item_angka, pangkat))
         return item_hasil
-def hasil_persen(__persen : int = PERSEN, *, dari_angka : int | float | Iterable[int | float]) -> int | float | list[int | float]:
-    assert __persen > 0, f"Tidak dapat melakukan operasi hasil {__persen}% dari {dari_angka}"
+def hasil_persen(persen : int = PERSEN, *, dari_angka : int | float | Iterable[int | float]) -> int | float | list[int | float]:
+    assert persen > 0, f"Tidak dapat melakukan operasi hasil {persen}% dari {dari_angka}"
     def hasil(__dari_angka : int | float) -> int | float:
-        return __dari_angka * __persen / PER_SERATUS
+        return __dari_angka * persen / PER_SERATUS
     if isinstance(dari_angka, int | float):
         return hasil(dari_angka)
     else:
