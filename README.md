@@ -41,7 +41,7 @@
 >>    cd direktori\file\yang\akan\diunduh
 >>    ~~~
 >> 4. Download repository pemrograman saya
->>    ~~~Ps1
+>>    ~~~PowerShell
 >>    git clone https://github.com/rifkydarmawan62/program_publik
 >>    ~~~
 > ## Memulai Dengan Python
@@ -76,13 +76,15 @@
 >>    pip install package_name
 >>    ~~~
 >> 10. Teruslah belajar
-# Dokumentasi
+# Dokumentasi Modul Python
+> Beberapa fungsi dari dokumentasi ini dibuat dengan parameter spesial secara eksplisit.
+> Detail parameter spesial dapat ditemukan di [dokumentasi resmi](https://docs.python.org/3/tutorial/controlflow.html#special-parameters) bahasa pemrograman Python
 > - ~~~Python
 >   PEMBARUAN_TERAKHIR : Literal[str]
 >   ~~~
 >   
 >   Tanggal program terakhir kali diperbarui
-> ## Metode Peretasan
+> ## [Metode Peretasan](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/metode_peretasan)
 >> ### Exception
 >>> - ~~~Python
 >>>   class exception_karakter_kata_sandi_bukan_ascii
@@ -93,6 +95,10 @@
 >>>   class exception_abjad_tunggal_duplikasi
 >>>   ~~~
 >>>   Exception untuk abjad tunggal yang memiliki duplikasi
+>>> - Kemungkinan exception lainnya :
+>>>   ~~~Python
+>>>   raise AssertionError
+>>>   ~~~
 >> ### Fungsi
 >>> - ~~~Python
 >>>   def brute_force_standar(karakter_kata_sandi : str, panjang_kata_sandi : int) -> typing.Iterator[str]
@@ -173,7 +179,7 @@
 >>>   for serangan_biner in brute_force_biner(8, "string"):
 >>>       "Program berbahaya untuk brute force biner"
 >>>   ~~~
-> ## Fungsi Matematika
+> ## [Fungsi Matematika](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/fungsi_matematika)
 >> ### Exception
 >>> Kemungkinan exception dari semua operasi matematika :
 >>> ~~~Python
@@ -248,7 +254,13 @@
 >>>   @overload
 >>>   def hasil_keliling_lingkaran(*, diameter : int | float | Iterable[int | float], bagian_lingkaran : int = 1) -> int | float | list[int | float]
 >>>   ~~~
->>>   Rumus keliling lingkaran K = π x d
+>>>   Rumus keliling lingkaran K = π x d  
+>>>   Penggunaan :
+>>>   ~~~Python
+>>>   hasil_keliling_lingkaran(jari_jari = 10)
+>>>   "Atau"
+>>>   hasil_keliling_lingkaran(diameter = 10)
+>>>   ~~~
 >>> - ~~~Python
 >>>   def hasil_luas_lingkaran(jari_jari : int | float | Iterable[int | float], *, bagian_lingkaran : int = 1) -> int | float | list[int | float]
 >>>   ~~~
