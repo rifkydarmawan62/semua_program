@@ -66,4 +66,4 @@ class tumpukan:
         return __objek_sementara
     def jumlah_elemen(self):
         "Mengembalikan jumlah elemen yang ditumpuk"
-        return len(len(self.__DATA))
+        return len(self.__DATA)
