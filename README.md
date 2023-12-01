@@ -4,7 +4,7 @@
 # Alat
 > | Nama | Kategori Program |
 > | --- | --- |
-> | Nonaktifkan WSL (Windows Subsystem for Linux) | [Program Python Terminal/Konsol](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20WSL.py)<br>[File Executable]() (memerlukan hak akses administrator) |
+> | Nonaktifkan WSL (Windows Subsystem for Linux) | [Program Python Terminal/Konsol](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20WSL.py)<br>[File Executable](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20WSL.exe) (memerlukan hak akses administrator) |
 > | [Program Script Python CLI](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/__main__.py) | Program Python Terminal/Konsol |
 > | Metode Peretasan | [Modul Python](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/metode_peretasan)<br>[Modul PHP](https://github.com/rifkydarmawan62/program_publik/tree/Publik/PHP/Modul/metode_peretasan.php) |
 > | Fungsi String | [Modul Python](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/fungsi_string)<br>[Modul PHP](https://github.com/rifkydarmawan62/program_publik/tree/Publik/PHP/Modul/fungsi_string.php) |
