@@ -86,6 +86,7 @@ def adalah_ipv4(__alamat_ip : str | Iterable[str]) -> bool | list[bool]:
             hasil.append(hasil_pemeriksaan(item_alamat_ip))
         return hasil
 def adalah_mac(__alamat_mac : str | Iterable[str]) -> bool | list[bool]:
+    "Mengembalikan True jika alamat MAC valid, mengembalikan False jika tidak"
     def hasil_pemeriksaan(__alamat_mac : str) -> bool:
         __alamat_mac.strip()
         if __alamat_mac.count(":") == 5:
