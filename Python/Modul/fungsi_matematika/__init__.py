@@ -1,7 +1,7 @@
 "Menyediakan fungsi matematika yang tersedia"
 from typing import Iterable, overload
 
-PEMBARUAN_TERAKHIR : str = "23 November 2023"
+PEMBARUAN_TERAKHIR : str = "5 Desember 2023"
 "Tanggal program terakhir kali diperbarui"
 
 NILAI_PI = 3.14
@@ -30,10 +30,7 @@ def balikkan_bilangan(__dari_angka : int | float | Iterable[int | float]) -> int
 def adalah_bilangan_positif(__angka : int | float | Iterable[int | float]) -> bool | list[bool]:
     "Mengembalikan True jika angka adalah bilangan positif, mengembalikan False jika tidak"
     def proses_bilangan_postif(__angka : int | float) -> bool:
-        if __angka > 0:
-            return True
-        else:
-            return False
+        return __angka > 0
     if isinstance(__angka, int | float):
         return proses_bilangan_postif(__angka)
     else:
@@ -44,10 +41,7 @@ def adalah_bilangan_positif(__angka : int | float | Iterable[int | float]) -> bo
 def adalah_bilangan_negatif(__angka : int | float | Iterable[int | float]) -> bool | list[bool]:
     "Mengembalikan True jika angka adalah bilangan negatif, mengembalikan False jika tidak"
     def proses_bilangan_negatif(__angka : int | float) -> bool:
-        if __angka < 0:
-            return True
-        else:
-            return False
+        return __angka < 0
     if isinstance(__angka, int | float):
         return proses_bilangan_negatif(__angka)
     else:
@@ -62,10 +56,7 @@ def adalah_bilangan_genap(__angka : int | Iterable[int]) -> bool | list[bool]:
             return True
         elif __angka < 0:
             __angka = balikkan_bilangan(__angka)
-        if __angka % 2 == 0:
-            return True
-        else:
-            return False
+        return __angka % 2 == 0
     if isinstance(__angka, int):
         return pembagian_bilangan_genap(__angka)
     else:
@@ -80,10 +71,7 @@ def adalah_bilangan_ganjil(__angka : int | Iterable[int]) -> bool | list[bool]:
             return False
         elif __angka < 0:
             __angka = balikkan_bilangan(__angka)
-        if __angka % 2 == 0:
-            return False
-        else:
-            return True
+        return __angka % 2 != 0
     if isinstance(__angka, int):
         return pembagian_bilangan_ganjil(__angka)
     else:
@@ -146,10 +134,7 @@ def adalah_habis_dibagi(__angka : int | float | Iterable[int | float], *, dibagi
     "Mengembalikan True jika angka habis dibagi, mengembalikan False jika tidak\n\nAssertionError dihasilkan jika argumen dibagi bernilai 0"
     assert dibagi_dengan != 0, "Pembagian Nol Tidak Valid Dalam Operasi Matematika"
     def proses_pembagian(__angka : int | float) -> bool:
-        if __angka % dibagi_dengan == 0:
-            return True
-        else:
-            return False
+        return __angka % dibagi_dengan == 0
     if isinstance(__angka, int | float):
         return proses_pembagian(__angka)
     else:
