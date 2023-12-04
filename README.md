@@ -5,31 +5,28 @@
 > | Nama | Kategori Program |
 > | --- | --- |
 > | Nonaktifkan WSL (Windows Subsystem for Linux) | [Program Python Terminal/Konsol](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20WSL.py)<br>[File Executable](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20WSL.exe) (memerlukan hak akses administrator) |
-> | [Program Script Python CLI](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/__main__.py) | Program Python Terminal/Konsol |
-> | Metode Peretasan | [Modul Python](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/metode_peretasan)<br>[Modul PHP](https://github.com/rifkydarmawan62/program_publik/tree/Publik/PHP/Modul/metode_peretasan.php) |
-> | Fungsi String | [Modul Python](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/fungsi_string)<br>[Modul PHP](https://github.com/rifkydarmawan62/program_publik/tree/Publik/PHP/Modul/fungsi_string.php) |
-> | Fungsi Matematika | [Modul Python](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/fungsi_matematika)<br>Modul PHP (segera hadir) |
-> | [Manipulasi Data](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/manipulasi_data) | Modul Python |
-> ## [Kriptografi](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/kriptografi)
+> | [Program Script Python CLI](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Modul/__main__.py) | Program Python Terminal/Konsol |
+> | Metode Peretasan | [Modul Python](https://github.com/rifkydarmawan62/semua_program/tree/Publik/Python/Modul/metode_peretasan)<br>[Modul PHP](https://github.com/rifkydarmawan62/semua_program/tree/Publik/PHP/Modul/metode_peretasan.php) |
+> | Fungsi String | [Modul Python](https://github.com/rifkydarmawan62/semua_program/tree/Publik/Python/Modul/fungsi_string)<br>[Modul PHP](https://github.com/rifkydarmawan62/semua_program/tree/Publik/PHP/Modul/fungsi_string.php) |
+> | Fungsi Matematika | [Modul Python](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Modul/fungsi_matematika) |
+> | Fungsi Jaringan | [Modul Python](https://github.com/rifkydarmawan62/semua_program/tree/Publik/Python/Modul/fungsi_jaringan) |
+> | [Manipulasi Data](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Modul/manipulasi_data) | Modul Python |
+> | | [Modul C#](https://github.com/rifkydarmawan62/semua_program/blob/Publik/C%23/modul.cs) |
+> ## [Kriptografi](https://github.com/rifkydarmawan62/semua_program/tree/Publik/Python/Modul/kriptografi)
 >> | Nama | Kategori Program |
 >> | --- | --- |
->> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/kriptografi/unicode_standar.py) | Modul Python |
-> ## [Konfigurasi Jaringan Internet](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/jaringan_internet)
->> | Nama | Kategori Program |
->> | --- | --- |
->> | [port](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/jaringan_internet/port) | Modul Python |
->> | [netmask](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/jaringan_internet/netmask) | Modul Python |
+>> | [Encode and Decode Standard Unicode Character](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Modul/kriptografi/unicode_standar.py) | Modul Python |
 > ## Konfigurasi Waktu
 >> | Nama | Kategori Program |
 >> | --- | --- |
->> | [waktu_sekarang](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/waktu_sekarang/__init__.py) | Modul Python |
+>> | [waktu_sekarang](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Modul/waktu_sekarang/__init__.py) | Modul Python |
 > ## Lainnya
 >> | Nama | Kategori Program |
 >> | --- | --- |
->> | [manager file txt](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Manager%20File%20txt) | Program Python Aplikasi Desktop |
->> | [Konversi Warna](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Konversi%20Warna.py) | Program Python Aplikasi Desktop |
->> | [Pointer Array Dua Dimensi](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C++/Dasar-Dasar/Pointer%20Array.cpp) | Program C++ Terminal/Konsol |
->> | [static dan non static](https://github.com/rifkydarmawan62/program_publik/blob/Publik/C%2B%2B/Dasar-Dasar/static%20dan%20non%20static.cpp) | Program C++ Terminal/Konsol |
+>> | [manager file txt](https://github.com/rifkydarmawan62/semua_program/tree/Publik/Python/Manager%20File%20txt) | Program Python Aplikasi Desktop |
+>> | [Konversi Warna](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Konversi%20Warna.py) | Program Python Aplikasi Desktop |
+>> | [Pointer Array Dua Dimensi](https://github.com/rifkydarmawan62/semua_program/blob/Publik/C++/Dasar-Dasar/Pointer%20Array.cpp) | Program C++ Terminal/Konsol |
+>> | [static dan non static](https://github.com/rifkydarmawan62/semua_program/blob/Publik/C%2B%2B/Dasar-Dasar/static%20dan%20non%20static.cpp) | Program C++ Terminal/Konsol |
 # Disclaimer dan Informasi:
 > Program yang dibuat bukan untuk **tujuan ILEGAL apapun**!  
 > **Pengembang tidak bertanggung jawab** terhadap **tindakan pengguna yang menggunakan program ini untuk tujuan ilegal!**
@@ -43,7 +40,7 @@
 >>    ~~~
 >> 4. Download repository pemrograman saya
 >>    ~~~PowerShell
->>    git clone https://github.com/rifkydarmawan62/program_publik
+>>    git clone https://github.com/rifkydarmawan62/semua_program
 >>    ~~~
 > ## Memulai Dengan Python
 >> 1. Download dan Instal Bahasa Pemrograman Python
@@ -52,13 +49,13 @@
 >> 2. Buka control panel atau panel kontrol
 >> 3. Cari variabel dan pilih Edit variabel lingkungan sistem (membutuhkan akses administrator)
 >>   
->>    ![aset_gambar_1](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Aset/Gambar/Memulai%20Dengan%20Python/1.png)
+>>    ![aset_gambar_1](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Aset/Gambar/Memulai%20Dengan%20Python/1.png)
 >> 4. Pilih environment variables
 >>
->>    ![aset_gambar_2](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Aset/Gambar/Memulai%20Dengan%20Python/2.png)
+>>    ![aset_gambar_2](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Aset/Gambar/Memulai%20Dengan%20Python/2.png)
 >> 5. Pilih path system variable (untuk seluruh pengguna) atau path user variable (untuk 1 pengguna) lalu tekan Edit > New lalu salin direktori folder Python ke edit environment variable tekan ok untuk semua jendela yang sedang dibuka
 >>
->>    ![aset_gambar_3](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Aset/Gambar/Memulai%20Dengan%20Python/3.png)
+>>    ![aset_gambar_3](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Aset/Gambar/Memulai%20Dengan%20Python/3.png)
 >> 6. Download IDE (Integrated Development Environment)
 >>    
 >>    Download Visual Studio Code sebagai IDE utama dari situs resmi https://code.visualstudio.com/download lalu buat file Python dengan format .py dan tulis program
@@ -85,7 +82,7 @@
 >   ~~~
 >   
 >   Tanggal program terakhir kali diperbarui
-> ## [Metode Peretasan](https://github.com/rifkydarmawan62/program_publik/tree/Publik/Python/Modul/metode_peretasan)
+> ## [Metode Peretasan](https://github.com/rifkydarmawan62/semua_program/tree/Publik/Python/Modul/metode_peretasan)
 >> ### Exception
 >>> - ~~~Python
 >>>   class exception_karakter_kata_sandi_bukan_ascii
@@ -180,7 +177,7 @@
 >>>   for serangan_biner in brute_force_biner(8, "string"):
 >>>       "Program berbahaya untuk brute force biner"
 >>>   ~~~
-> ## [Fungsi Matematika](https://github.com/rifkydarmawan62/program_publik/blob/Publik/Python/Modul/fungsi_matematika)
+> ## [Fungsi Matematika](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Modul/fungsi_matematika)
 >> ### Exception
 >>> Kemungkinan exception dari semua operasi matematika :
 >>> ~~~Python
@@ -308,5 +305,80 @@
 >>>   ~~~Python
 >>>   hasil_persen(25, dari_angka = 10_000_000)
 >>>   ~~~
+> ## [Fungsi Jaringan](https://github.com/rifkydarmawan62/semua_program/tree/Publik/Python/Modul/fungsi_jaringan)
+>> ### Konstanta
+>>> ~~~Python
+>>> #PORT
+>>> PORT_FTP = 20, 21
+>>> "Port File Transfer Protocol"
+>>> PORT_SSH = 22
+>>> "Port Secure Shell"
+>>> PORT_TELNET = 23
+>>> PORT_SMTP = 25
+>>> "Port Simple Mail Transfer Protocol"
+>>> PORT_DNS = 53
+>>> "Port Domain Name System"
+>>> PORT_DHCP_SERVER = 67
+>>> "Port Dynamic Host Configuration Protocol untuk server"
+>>> PORT_DHCP_KLIEN = 68
+>>> "Port Dynamic Host Configuration Protocol untuk klien"
+>>> PORT_HTTP = 80
+>>> "Port Hyper Text Transfer Protocol"
+>>> PORT_POP3_NON_ENKRIPSI = 110
+>>> "Port Post Office Protocol tanpa enkripsi"
+>>> PORT_IMAP = 143
+>>> "Port Internet Message Access Protocol"
+>>> PORT_HTTPS = 443
+>>> "Port Hyper Text Transfer Protocol Secure"
+>>> PORT_POP3_TERENKRIPSI = 995
+>>> "Port Post Office Protocol dengan enkripsi SSL/TLS"
+>>> PORT_PROXY = 3128, 8080
+>>> 
+>>> #IPV4
+>>> IPV4_KELAS_A = "255.0.0.0"
+>>> "Netmask kelas a"
+>>> IPV4_KELAS_B = "255.255.0.0"
+>>> "Netmask kelas b"
+>>> IPV4_KELAS_C = "255.255.255.0"
+>>> "Netmask kelas c"
+>>> 
+>>> IPV4_KELAS_A_BINER = "11111111.00000000.00000000.00000000"
+>>> "Netmask kelas a dalam bilangan biner"
+>>> IPV4_KELAS_B_BINER = "11111111.11111111.00000000.00000000"
+>>> "Netmask kelas b dalam bilangan biner"
+>>> IPV4_KELAS_C_BINER = "11111111.11111111.11111111.00000000"
+>>> "Netmask kelas c dalam bilangan biner"
+>>> 
+>>> CIDR_KELAS_A = "/8"
+>>> "Classless Inter-Domain Routing kelas a"
+>>> CIDR_KELAS_B = "/16"
+>>> "Classless Inter-Domain Routing kelas b"
+>>> CIDR_KELAS_C = "/24"
+>>> "Classless Inter-Domain Routing kelas c"
+>>> 
+>>> TOTAL_NETWORK_IPV4_KELAS_A = 256
+>>> "Jumlah network atau jaringan dalam netmask kelas a"
+>>> TOTAL_NETWORK_IPV4_KELAS_B = 65536
+>>> "Jumlah network atau jaringan dalam netmask kelas b"
+>>> TOTAL_NETWORK_IPV4_KELAS_C = 16777216
+>>> "Jumlah network atau jaringan dalam netmask kelas c"
+>>> 
+>>> MAKSIMUM_HOST_IPV4_KELAS_A = 16777214
+>>> "Jumlah host atau perangkat maksimal yang dapat terhubung ke internet dalam netmask kelas a"
+>>> MAKSIMUM_HOST_IPV4_KELAS_B = 65534
+>>> "Jumlah host atau perangkat maksimal yang dapat terhubung ke internet dalam netmask kelas b"
+>>> MAKSIMUM_HOST_IPV4_KELAS_C = 254
+>>> "Jumlah host atau perangkat maksimal yang dapat terhubung ke internet dalam netmask kelas c"
+>>> ~~~
+>> ### Fungsi
+>>> - ~~~Python
+>>>   def adalah_ipv4(__alamat_ip : str | Iterable[str]) -> bool | list[bool]
+>>>   ~~~
+>>>   Mengembalikan True jika alamat IPv4 valid, mengembalikan False jika tidak
+>>>   
+>>> - ~~~Python
+>>>   def adalah_mac(__alamat_mac : str | Iterable[str]) -> bool | list[bool]
+>>>   ~~~
+>>>   Mengembalikan True jika alamat MAC valid, mengembalikan False jika tidak
 # Media Sosial
 > - Instagram : [@rifkydarmawan62](https://www.instagram.com/rifkydarmawan62/)
