@@ -4,8 +4,8 @@
 # Alat
 > | Nama | Kategori Program |
 > | --- | --- |
-> | Nonaktifkan WSL (Windows Subsystem for Linux) | [Program Python Terminal/Konsol](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20WSL.py)<br>[File Executable](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20WSL.exe) (memerlukan hak akses administrator) |
-> | Nonaktifkan CompatTelRunner.exe (Microsoft Compatibility Telemetry) | [Program Python Terminal/Konsol](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20CompatTelRunner.exe.py)<br>[File Executable](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20CompatTelRunner.exe) (memerlukan hak akses administrator) |
+> | Nonaktifkan WSL (Windows Subsystem for Linux) | [Program Python Terminal/Konsol](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20WSL.py) (Kode Sumber dari File Executable Terminal/Konsol)<br>[File Executable Terminal/Konsol](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20WSL.exe) (memerlukan hak akses administrator) |
+> | Nonaktifkan CompatTelRunner.exe (Microsoft Compatibility Telemetry) | [Program Python Terminal/Konsol](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20CompatTelRunner.exe.py) (Kode Sumber dari File Executable Terminal/Konsol)<br>[File Executable Terminal/Konsol](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Nonaktifkan%20CompatTelRunner.exe) (memerlukan hak akses administrator) |
 > | [Program Script Python CLI](https://github.com/rifkydarmawan62/semua_program/blob/Publik/Python/Modul/__main__.py) | Program Python Terminal/Konsol |
 > | Metode Peretasan | [Modul Python](https://github.com/rifkydarmawan62/semua_program/tree/Publik/Python/Modul/metode_peretasan)<br>[Modul PHP](https://github.com/rifkydarmawan62/semua_program/tree/Publik/PHP/Modul/metode_peretasan.php) |
 > | Fungsi String | [Modul Python](https://github.com/rifkydarmawan62/semua_program/tree/Publik/Python/Modul/fungsi_string)<br>[Modul PHP](https://github.com/rifkydarmawan62/semua_program/tree/Publik/PHP/Modul/fungsi_string.php) |
@@ -32,16 +32,20 @@
 > 1. Pastikan anda telah menginstal git terlebih dahulu dari https://git-scm.com
 > 2. Tambahkan file bin git ke local (user) environment variable atau global (system) environment variable
 > 3. Ganti direktori file yang akan diunduh
->    ~~~Ps1
+>    ~~~PowerShell
 >    cd direktori\file\yang\akan\diunduh
 >    ~~~
 > 4. Download repository pemrograman saya
 >    ~~~PowerShell
->    git clone https://github.com/rifkydarmawan62/semua_program
+>    git clone "https://github.com/rifkydarmawan62/semua_program"
 >    ~~~
 # Disclaimer dan Informasi:
 > Program yang dibuat bukan untuk **tujuan ILEGAL apapun**!  
 > **Pengembang tidak bertanggung jawab** terhadap **tindakan pengguna yang menggunakan program ini untuk tujuan ilegal!**
 # [Dokumentasi](https://github.com/rifkydarmawan62/semua_program/wiki/Dokumentasi)
+> Download dokumentasi :
+> ~~~PowerShell
+> git clone "https://github.com/rifkydarmawan62/semua_program.wiki.git"
+> ~~~
 # Media Sosial
 > - Instagram : [@rifkydarmawan62](https://www.instagram.com/rifkydarmawan62/)
